@@ -1,4 +1,34 @@
 ﻿body
 {
-    background-color: aqua;
+    background-color: whitesmoke;
+    font-family:'raleway' ,sans-serif;
+}
+
+.accueuil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction:row;
+    gap:30px;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.lien1{
+    display:flex;
+    gap:30px;
+}
+
+.lien2 {
+    display: flex;
+    gap: 30px;
 }

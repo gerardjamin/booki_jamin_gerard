@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSS",
+    "\\Decoupage"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\CSS\\style.css",
   "PreviewInSolutionExplorer": false
 }
