@@ -16,7 +16,7 @@
     <header class="header">
         <nav class="accueuil">
             <div class="logo">
-                <img src="images/logo/Booki.png" ; alt="Booki@3x.png" />
+                <img src="images/logo/Booki.png" ; alt="Booki@3x.png" width="61" height="19" />
             </div>
 
             <div class="menu">
@@ -26,14 +26,22 @@
         </nav>
         <h3>Trouvez votre hèbergement pour des vacances de reve</h3>
         <h5>En plein centre-ville ou en pleine nature</h5>
+
+        <!-- Partie recherche-->
         <div class="recherche">
-            <p>ici on recherche</p>
+            <i class="fa-solid fa-location-dot"></i>
+            <form action="#">
+                <input type="text" id="fname" name="fname" value="Marseille,France">
+                <input id="recherche" type="submit" value="Recherche">
+            </form>
         </div>
-        <div class="filtre">      
+
+        <!--Partie filtre-->
+        <div class="filtre">
             <div class="liens">
                 <p id="nota">Filtres</p>
                 <div class="lien1">
-                    <a href="#">Economique</a>
+                    <p id="Eco"><a href="#">Economique</a></p>
                     <a href="#">Familial</a>
                 </div>
                 <div class="lien2">
@@ -42,9 +50,58 @@
                 </div>
             </div>
         </div>
-        <h3>Plus de 500 logements sont disponibles dans cette ville</h3>
 
+        <div class="info">
+            <i class="fa-solid fa-info"></i>
+            <h3 id="titre_info">Plus de 500 logements sont disponibles dans cette ville</h3>
+        </div>
     </header>
-   
+    <main>
+        <section id="hebergements">
+            <h2>Hébergements à Marseille</h2>
+
+
+        </section>
+
+        <section id="populaires">
+            <h2>Les plus populaires</h2>
+
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="propos">
+            <p class="footer">A propos</p>
+            <br />
+            <a href="#">Fonctionnement du site</a>
+            <br />
+            <a href="#">Conditions générales</a>
+            <br />
+            <a href="#">Données et confidentialité</a>
+        </div>
+        <div class="hebergement">
+            <p class="footer">Nos hèbergements</p>
+            <br />
+            <a href="#">Charte qualité</a>
+            <br />
+            <a href="#">Proposer votre hotel</a>
+        </div>
+        <div class="assistance">
+            <p class="footer">Assistance</p>
+            <br />
+            <a href="#">Centre d'aide</a>
+            <br />
+            <a href="#">Nous contacter</a>
+        </div>
+
+
+
+
+
+
+    </footer>
+
 </body>
 </html>
