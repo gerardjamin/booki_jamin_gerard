@@ -7,12 +7,14 @@ body
     background-color: white;
     font-family:'raleway' ,sans-serif;
     margin:30px;
+    width:1400px;
+    height:1884px;
 }
 
-main{
+.main{
     display:flex;
-    /*justify-content:space-between;*/
-    gap:50px
+    
+  
 }
 
 .accueuil {
@@ -31,8 +33,9 @@ main{
     
 }
 
-    .menu a:hover {
+.menu a:hover {
         border-top: 2px solid #0065FC;
+        color: #0065FC;
     }
 
 .liens {
@@ -41,16 +44,41 @@ main{
     gap:30px;
 }
 
-.lien1{
-    display:flex;
-    gap:30px;
+.lien1 {
+    display: flex;
+    gap: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .lien2 {
     display: flex;
     gap: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.lien3 {
+    display: flex;
+    gap: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lien4 {
+    display: flex;
+    gap: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #nota{
     margin-top: auto;
 }
@@ -67,9 +95,11 @@ h3 {
 }
 .recherche{
     display:flex;
+    align-items:center;
     margin-top:30px;
     margin-bottom:30px;
     gap:15px;
+   
 }
 
 .filtre{
@@ -83,7 +113,8 @@ form{
 
 #recherche {
     background-color: #0065FC;
-    color:white;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .info {
@@ -114,17 +145,71 @@ h2{
     margin-left:20px;
 }
 
-#hebergements {
-    width: 880px;
-    height: 626px;
+.hebergements {
+    display: flex;
     background-color: #F2F2F2;
+    flex-direction: column;
+    gap: 25px;
 }
 
-#populaires {
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 22%;
+    height:30%;
+    border-radius: 5px;
+    margin-bottom:10px;
+   
+}
+   
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px;
+    width:100%;
+    height:60%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.populaires {
     width: 420px;
     height: 625px;
     background-color: #F2F2F2;
 }
+
+
 
 
 
