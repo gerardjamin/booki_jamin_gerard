@@ -7,8 +7,8 @@ body
     background-color: white;
     font-family:'raleway' ,sans-serif;
     margin:30px;
-    width:1570px;
-    height:1884px;
+    width:auto;
+    height:auto;
 }
 
 .main{
@@ -143,6 +143,10 @@ h2 {
     margin-left: 20px;
 }
 
+.container p{
+    margin: 2px 4px 2px 4px;
+}
+
 /*partie footer*/
 footer {
     width: 1570px;
@@ -160,12 +164,13 @@ footer {
 /*partie cards*/
 .hebergement-vert {
     display: flex;
-    /*background-color: #F2F2F2;*/
+    background-color: #F2F2F2;
     flex-direction: row;
     align-items:center;
     /*border: solid green;*/
     width:1570px;
     justify-content:space-around;
+    margin-bottom:40px;
 }
 
 .hebergement-bleu {
@@ -270,6 +275,7 @@ footer {
     flex-direction: column;
     width: 1570px;
     /*border:solid red;*/
+
 }
 .images {
     display: flex;
