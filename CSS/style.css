@@ -22,6 +22,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-bottom:30px;
+    margin-right:150px;
 }
 
 nav img {
@@ -58,16 +59,16 @@ nav img {
 .lien1 {
     display: flex;
     gap: 30px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #F5F5F2;
     border-radius: 10px 10px 10px 10px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .lien2 {
     display: flex;
     gap: 30px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #F5F5F2;
     border-radius: 10px 10px 10px 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -76,7 +77,7 @@ nav img {
 .lien3 {
     display: flex;
     gap: 30px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #F5F5F2;
     border-radius: 10px 10px 10px 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -85,7 +86,7 @@ nav img {
 .lien4 {
     display: flex;
     gap: 30px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #F5F5F2;
     border-radius: 10px 10px 10px 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -147,24 +148,10 @@ h2 {
     margin: 2px 4px 2px 4px;
 }
 
-/*partie footer*/
-footer {
-    width: 1570px;
-    height: 225px;
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 200px;
-}
-
-.footer{
-    padding-top:20px
-}
-
 /*partie cards*/
 .hebergement-vert {
     display: flex;
-    background-color: #F2F2F2;
+    /*background-color: #F2F2F2;*/
     flex-direction: row;
     align-items:center;
     /*border: solid green;*/
@@ -178,11 +165,13 @@ footer {
     flex-direction: column;
     /*border: solid blue;*/
     width: 700px;
-    height:554px;
+    height: 480px;
     margin-left: 10px;
     padding-top: 15px;
-    padding-bottom:30px;
-    padding-left:20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #F5F5F2;
 }
 
 .hebergement-rouge{
@@ -206,12 +195,14 @@ footer {
 .populaire-rouge {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:flex-start;
+    align-items: center;
+    justify-content: flex-start;
     /*border: solid red;*/
     width: 350px;
-    height:554px;
-    margin-top:20px;
+    height: 520px;
+    border-radius: 15px;
+    background-color: #F5F5F2;
+    margin-right:100px;
 }
 
 .populaire-jaune{
@@ -221,6 +212,10 @@ footer {
     margin-top:20px;
 }
 
+.hebergement-bleu #next a {
+    text-decoration: none;
+    color: black;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -246,7 +241,6 @@ footer {
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top:20px;
-   
 }
 
 .card-hebergement:hover {
@@ -256,6 +250,7 @@ footer {
 .card-populaire:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 .Img-hebergement {
     object-fit: cover;
     border-radius: 15px 15px 15px 15px;
@@ -273,21 +268,20 @@ footer {
 .populaires {
     width: 420px;
     height: 625px;
-    background-color: #F2F2F2;
+    background-color: #F5F5F2;
 }
 
 .activite {
     display: flex;
     flex-direction: column;
-   
     /*border:solid red;*/
-
 }
 .images-activite {
     display: flex;
     flex-direction: row;
     gap:25px;
     /*border:solid yellow;*/
+    width:1575px;;
 }
 
 .images-activite .card-activite img {
@@ -303,8 +297,46 @@ footer {
 
 .card-activite{
     /*border:solid red;*/
-    width:30%;
+    width:20%;
 }
+
+/*partie footer*/
+footer {
+    width: 1345px;
+    height: 150px;
+    background-color: #F5F5F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /*border:solid blue;*/
+    gap: 300px;
+}
+
+.propos a,.propos {
+    text-decoration:none;
+    color:black;
+    /*border:solid red;*/
+}
+
+.hebergement a,.hebergement{
+    text-decoration: none;
+    color: black;
+    /*border:solid green;*/
+    
+}
+
+.assistance a, .assistance {
+    text-decoration: none;
+    color: black;
+    /*border:solid yellow;*/
+}
+
+.assistance p{
+    margin-right:50px;
+}
+
+
 
 
 
