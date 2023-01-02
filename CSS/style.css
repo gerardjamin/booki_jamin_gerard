@@ -1,4 +1,5 @@
-﻿*{
+﻿/*toutes les marges de la page sont misent à 0 */
+*{
     margin:0;
 }
 
@@ -12,7 +13,7 @@ body
 }
 
 .main{
-    display:flex;
+    
 }
 
 /*partie navigation*/
@@ -90,10 +91,6 @@ nav img {
     border-radius: 10px 10px 10px 10px;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-#filtre{
-    margin-top: auto;
 }
 
 .filtre {
