@@ -4,11 +4,11 @@
 <head>
     <!--encodage de la page HTML-->
     <meta charset="utf-8" />
-    <link  rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <!--Indication avec preconnect au navigateur de la connection au serveur goggle-font. Ici la police que l'on a choisie est Raleway'-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
     <!-- Placer votre kit de logo ici -->
     <script src="https://kit.fontawesome.com/bd510b2bbe.js" crossorigin="anonymous"></script>
     <!--création du favicon et du titre dans l'onglet de la page HTML'-->
@@ -21,12 +21,12 @@
         <nav>
             <img src="Images/logo/Booki.png" alt="Booki@3x.png" />
             <div class="menu">
-                <a href="#">Hèbergements</a>
+                <a href="#">Hébergements</a>
                 <a href="#">Activités</a>
             </div>
         </nav>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre-ville ou en pleine nature</p>
+        <p class="titre">Trouvez votre hébergement pour des vacances de rêve</p>
+        <h5>En plein centre-ville ou en pleine nature</h5>
 
         <!-- Partie recherche-->
         <div class="recherche">
@@ -46,6 +46,7 @@
 
                 </div>
                 <div class="lien2">
+                    <i class="fa-duotone fa-people-simple"></i>
                     <a href="#">Familial</a>
                 </div>
                 <div class="lien3">
@@ -53,20 +54,21 @@
 
                 </div>
                 <div class="lien4">
+                    <i class="fa-sharp fa-solid fa-dog"></i>
                     <a href="#">Animaux autorisés</a>
                 </div>
             </div>
         </div>
         <div id="info">
-            <i class="fa-solid fa-info"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <i class="fa-sharp fa-solid fa-circle-info"></i>
+            <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
         </div>
     </header>
 
     <main class="main">
         <section class="hebergement-vert">
             <section class="hebergement-bleu">
-                <p>Hébergements à Marseille</p>
+                <p class="titre">Hébergements à Marseille</p>
                 <section class="hebergement-rouge">
                     <article class="hebergement-jaune">
                         <div class="card-hebergement">
@@ -119,13 +121,20 @@
                 <h5 id="next"><a href="#">Afficher plus</a></h5>
             </section>
             <section class="populaire-rouge">
-                <p>Les plus populaires</p>
+                <p class="titre">Les plus populaires</p>
                 <article class="populaire-jaune">
                     <div class="card-populaire">
                         <img class="Img-populaire" src="Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="populaire">
                         <div class="container">
                             <h4><b>Hotel le soleil du matin </b></h4>
                             <p>Nuit à partir de 128 €</p>
+                            <div id="star">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="card-populaire">
@@ -148,7 +157,7 @@
     </main>
 
     <section class="activite">
-        <p id="activite">Activités à Marseille</p>
+        <p class="titre">Activités à Marseille</p>
         <section class="images-activite">
             <div class="card-activite">
                 <img src="Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="activite">
