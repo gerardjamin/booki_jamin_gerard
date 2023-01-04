@@ -54,44 +54,26 @@ nav img {
     gap:30px;
 }
 
-    .liens a {
+ .liens a {
         text-decoration: none;
+        color:black;
     }
 
 .lien1 {
     display: flex;
     gap: 30px;
-    border: 2px solid #F5F5F2;
-    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #E6E6E6;
+    border-radius: 20px 20px 20px 20px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
-.lien2 {
-    display: flex;
-    gap: 30px;
-    border: 2px solid #F5F5F2;
-    border-radius: 10px 10px 10px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.lien3 {
-    display: flex;
-    gap: 30px;
-    border: 2px solid #F5F5F2;
-    border-radius: 10px 10px 10px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.lien4 {
-    display: flex;
-    gap: 30px;
-    border: 2px solid #F5F5F2;
-    border-radius: 10px 10px 10px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.lien1:hover{
+    background-color:#C5E3FA;
 }
 
 .filtre {
