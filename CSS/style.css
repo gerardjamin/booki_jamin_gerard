@@ -8,7 +8,7 @@ body
     background-color: white;
     font-family:'raleway' ,sans-serif;
     margin:30px;
-    width:auto;
+    width-max:1400px;
     height:auto;
 }
 
