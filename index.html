@@ -2,16 +2,17 @@
 
 <html lang="fr">
 <head>
-    <!--encodage de la page HTML-->
+    <!--encodage de la page HTML (jeu de caractères)-->
     <meta charset="utf-8" />
+    <!--lien vers une feuille de style externe-->
     <link rel="stylesheet" href="CSS/style.css" />
     <!--Indication avec preconnect au navigateur de la connection au serveur goggle-font. Ici la police que l'on a choisie est Raleway'-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
-    <!-- Placer votre kit de logo ici -->
+    <!-- mise en place du kit d'icones-->
     <script src="https://kit.fontawesome.com/bd510b2bbe.js" crossorigin="anonymous"></script>
-    <!--création du favicon et du titre dans l'onglet de la page HTML'-->
+    <!--ajouté un favicon et un titre dans l'onglet de la page HTML'-->
     <link rel="icon" type="image/png" href="Images/logo/Booki.png" sizes="32x32" />
     <title> booki</title>
 </head>
@@ -39,7 +40,7 @@
         <!--Partie filtre-->
         <div class="filtre">
             <div class="liens-container">
-                <p>Filtres</p>
+                <p class="nom">Filtres</p>
                 <div class="lien">
                     <i class="fa-solid fa-sack-dollar"></i>
                     <a href="#"> Economique </a>
@@ -88,7 +89,7 @@
                         <div class="card-hebergement">
                             <img class="Img-hebergement" src="Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hébergement">
                             <div class="container">
-                                <h4><b>Hôtel du port </b></h4>
+                                <p class="nom">Hôtel du port</p>
                                 <p>Nuit à partir de 52 €</p>
                                 <div id="star-logement">
                                     <i class="fa-solid fa-star"></i>
@@ -102,7 +103,7 @@
                         <div class="card-hebergement">
                             <img class="Img-hebergement" src="Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hébergement">
                             <div class="container">
-                                <h4><b>Hôtel les mouettes </b></h4>
+                                <p class="nom">Hôtel les mouettes</p>
                                 <p>Nuit à partir de 76 €</p>
                                 <div id="star-logement">
                                     <i class="fa-solid fa-star"></i>
@@ -119,7 +120,7 @@
                         <div class="card-hebergement">
                             <img class="Img-hebergement" src="Images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hébergement">
                             <div class="container">
-                                <h4><b>Hôtel de la mer </b></h4>
+                                <p class="nom">Hôtel de la mer</p>
                                 <p>Nuit à partir de 46 €</p>
                                 <div id="star-logement">
                                     <i class="fa-solid fa-star"></i>
@@ -133,7 +134,7 @@
                         <div class="card-hebergement">
                             <img class="Img-hebergement" src="Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="hébergement">
                             <div class="container">
-                                <h4><b>Auberge le panier </b></h4>
+                                <p class="nom">Auberge le panier</p>
                                 <p>Nuit à partir de 23 €</p>
                                 <div id="star-logement">
                                     <i class="fa-solid fa-star"></i>
@@ -147,7 +148,7 @@
                         <div class="card-hebergement">
                             <img class="Img-hebergement" src="Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hébergement">
                             <div class="container">
-                                <h4><b>Hôtel chez Amina </b></h4>
+                                <p class="nom">Hôtel chez Amina</p>
                                 <p>Nuit à partir de 96 €</p>
                                 <div id="star-logement">
                                     <i class="fa-solid fa-star"></i>
@@ -170,7 +171,7 @@
                     <div class="card-populaire">
                         <img class="Img-populaire" src="Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="populaire">
                         <div class="container">
-                            <p><b>Hôtel le soleil du matin </b></p>
+                            <p class="nom">Hôtel le soleil du matin</p>
                             <p>Nuit à partir de 128 €</p>
                             <div id="star-populaire">
                                 <i class="fa-solid fa-star"></i>
@@ -184,7 +185,7 @@
                     <div class="card-populaire">
                         <img class="Img-populaire" src="Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="populaire">
                         <div class="container">
-                            <p><b>Chambre d'hôtes Au coeur de l'eau </b></p>
+                            <p class="nom">Chambre d'hôtes Au coeur de l'eau</p>
                             <p>Nuit à partir de 71 €</p>
                             <div id="star-populaire">
                                 <i class="fa-solid fa-star"></i>
@@ -198,7 +199,7 @@
                     <div class="card-populaire">
                         <img class="Img-populaire" src="Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="populaire">
                         <div class="container">
-                            <p><b>Hôtel Bleu et Blanc </b></p>
+                            <p class="nom">Hôtel Bleu et Blanc</p>
                             <p>Nuit à partir de 68 €</p>
                             <div id="star-populaire">
                                 <i class="fa-solid fa-star"></i>
@@ -219,26 +220,26 @@
         <section class="images-activite">
             <div class="card-activite">
                 <img src="Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="activité">
-                <p>Vieux-Port</p>
+                <p class="nom">Vieux-Port</p>
             </div>
             <div class="card-activite">
                 <img src="Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="activité">
-                <p>Fort de Pomègues</p>
+                <p class="nom">Fort de Pomègues</p>
             </div>
             <div class="card-activite">
                 <img src="Images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="activité">
-                <p>Parc national des Calanques</p>
+                <p class="nom">Parc national des Calanques</p>
             </div>
             <div class="card-activite">
                 <img src="Images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="activité">
-                <p>Notre-Dame-de-la-Garde</p>
+                <p class="nom">Notre-Dame-de-la-Garde</p>
             </div>
         </section>
     </section>
 
     <footer>    
             <div class="propos">
-                <p>A propos</p>
+                <p class="nom">A propos</p>
                 <br />
                 <a href="#">Fonctionnement du site</a>
                 <br />
@@ -247,14 +248,14 @@
                 <a href="#">Données et confidentialité</a>
             </div>
             <div class="hebergement">
-                <p>Nos hébergements</p>
+                <p class="nom">Nos hébergements</p>
                 <br />
                 <a href="#">Charte qualité</a>
                 <br />
                 <a href="#">Proposer votre hôtel</a>
             </div>
             <div class="assistance">
-                <p>Assistance</p>
+                <p class="nom">Assistance</p>
                 <br />
                 <a href="#">Centre d'aide</a>
                 <br />

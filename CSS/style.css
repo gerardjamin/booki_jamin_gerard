@@ -12,6 +12,10 @@ body
     height:auto;
 }
 
+p{
+    font-weight:normal;
+}
+
 /*partie navigation*/
 nav {
     display: flex;
