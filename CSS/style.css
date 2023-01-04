@@ -130,6 +130,12 @@ form {
 .titre{
     font-size:22px;
     margin-top:20px;
+    margin-left:25px;
+}
+
+.nom{
+    font-size:16px;
+    font-weight:bold;
 }
 
 .container p{
@@ -139,7 +145,6 @@ form {
 /*partie cards*/
 .hebergement-vert {
     display: flex;
-    /*background-color: #F2F2F2;*/
     flex-direction: row;
     align-items:center;
     /*border: solid green;*/
@@ -152,14 +157,14 @@ form {
     display: flex;
     flex-direction: column;
     /*border: solid blue;*/
-    width: 700px;
-    height: 480px;
+    width: 800px;
+    height: 520px;
     margin-left: 10px;
     padding-top: 15px;
     padding-bottom: 30px;
     padding-left: 20px;
     border-radius: 15px;
-    background-color: #F5F5F2;
+    background-color: #E6E6E6;
 }
 
 .hebergement-rouge{
@@ -183,13 +188,12 @@ form {
 .populaire-rouge {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     /*border: solid red;*/
-    width: 350px;
-    height: 520px;
+    width: 500px;
+    height: 560px;
     border-radius: 15px;
-    background-color: #F5F5F2;
+    background-color: #E6E6E6;
     margin-right:100px;
 }
 
@@ -198,6 +202,8 @@ form {
     flex-direction:column;
     /*border:solid yellow;*/
     margin-top:20px;
+    width:480px;
+    margin-right:5px;
 }
 
 .hebergement-bleu #next a {
@@ -216,7 +222,6 @@ form {
     transition: 0.2s;
     width: 30%;
     height:200px;
-    /*border-radius: 5px;*/
     margin-bottom:10px;
 }
 
@@ -229,6 +234,7 @@ form {
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top:20px;
+    /*border:solid blue;*/
 }
 
 .card-hebergement:hover {
@@ -267,9 +273,11 @@ form {
 .images-activite {
     display: flex;
     flex-direction: row;
-    gap:25px;
+    gap:48px;
     /*border:solid yellow;*/
-    width:1575px;;
+    width:1575px;
+    margin-left:30px;
+    margin-top:10px;
 }
 
 .images-activite .card-activite img {
@@ -325,9 +333,16 @@ footer {
     margin-right:50px;
 }
 
-#star {
+#star-populaire {
     display: flex;
     flex-direction: row;
+    margin-top:15px;
+}
+
+#star-logement {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
 }
 
 
