@@ -12,10 +12,6 @@ body
     height:auto;
 }
 
-.main{
-    
-}
-
 /*partie navigation*/
 nav {
     display: flex;
@@ -48,18 +44,18 @@ nav img {
     }
 
 /*partie filtre*/
-.liens {
+.liens-container {
     display: flex;
     flex-direction: row;
     gap:30px;
 }
 
- .liens a {
+ .liens-container a {
         text-decoration: none;
         color:black;
     }
 
-.lien1 {
+.lien {
     display: flex;
     gap: 30px;
     border: 2px solid #E6E6E6;
@@ -72,7 +68,7 @@ nav img {
     align-items: center;
 }
 
-.lien1:hover{
+.lien:hover{
     background-color:#C5E3FA;
 }
 
@@ -195,12 +191,12 @@ form {
 .container {
     display: flex;
     flex-direction: column;
-   align-items:center;
-   justify-content:center;
-   font-weight:normal;
+    align-items:center;
+    justify-content:center;
+    font-weight:normal;
 }
 .card-hebergement {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 20px 20px 50px 15px grey;
     transition: 0.2s;
     width: 30%;
     height:200px;
@@ -208,23 +204,23 @@ form {
 }
 
 .card-populaire {
-    display:flex;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    box-shadow: 20px 20px 50px 15px grey;
     transition: 0.2s;
     width: 100%;
     height: 100px;
     border-radius: 5px;
     margin-bottom: 10px;
-    margin-top:20px;
+    margin-top: 20px;
     /*border:solid blue;*/
 }
 
 .card-hebergement:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
 }
 
 .card-populaire:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
 }
 
 .Img-hebergement {
@@ -269,7 +265,6 @@ form {
     height:250px;
 }
 
-*/
 .card-activite{
     /*border:solid red;*/
     width:20%;
