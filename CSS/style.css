@@ -3,6 +3,11 @@
     margin:0;
 }
 
+#container {
+    width: 100%;
+    max-width: 1400px;
+}
+
 body
 {
     background-color: white;
@@ -115,12 +120,9 @@ form {
     margin-left:25px;
 }
 
-.nom{
-    font-size:16px;
-    font-weight:bold;
-}
-
-.container p{
+.nom {
+    font-size: 16px;
+    font-weight: bold;
     margin: 2px 4px 2px 4px;
 }
 
@@ -172,7 +174,7 @@ form {
     flex-direction: column;
     justify-content: flex-start;
     /*border: solid red;*/
-    width: 500px;
+    width: 600px;
     height: 560px;
     border-radius: 15px;
     background-color: #E6E6E6;
@@ -192,7 +194,7 @@ form {
     text-decoration: none;
     color: black;
 }
-.container {
+.card-container {
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -255,7 +257,7 @@ form {
 .images-activite {
     display: flex;
     flex-direction: row;
-    gap:48px;
+    gap:90px;
     /*border:solid yellow;*/
     width:1400px;
     margin-left:30px;
@@ -276,7 +278,7 @@ form {
 
 /*partie footer*/
 footer {
-    width: 1420px;
+    width: 1400px;
     height: 150px;
     background-color: #E6E6E6;
     display: flex;
