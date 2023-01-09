@@ -6,15 +6,19 @@
 #container {
     width: 100%;
     max-width: 1400px;
+    /*background:pink; */
 }
 
 body
 {
     background-color: white;
     font-family:'raleway' ,sans-serif;
-    margin:30px;
+    margin:auto;
     width:1400px;
-    height:auto;
+}
+
+#header{
+    margin:auto;
 }
 
 p{
@@ -75,6 +79,7 @@ nav img {
     height: 30px;
     justify-content: center;
     align-items: center;
+    color:blue;
 }
 
 .lien:hover{
@@ -132,31 +137,25 @@ form {
     flex-direction: row;
     align-items:center;
     /*border: solid green;*/
-    width:1570px;
+    width:auto;
     justify-content:space-around;
-    margin-bottom:40px;
 }
 
 .hebergement-bleu {
     display: flex;
     flex-direction: column;
     /*border: solid blue;*/
-    width: 800px;
-    height: 520px;
-    margin-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    padding-left: 20px;
+    width: 60%;
+    margin:2.5%;
     border-radius: 15px;
-    background-color: #E6E6E6;
+    /*background-color: #E6E6E6;*/
 }
 
 .hebergement-rouge{
     display:flex;
     flex-direction:column;
     /*border: solid red;*/
-    margin-top:20px;
-    margin-bottom:20px;
+    margin:2.5%;
     width:95%;
     
 }
@@ -172,22 +171,23 @@ form {
 .populaire-rouge {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items:baseline;
     /*border: solid red;*/
-    width: 600px;
-    height: 560px;
+    width: 25%;
     border-radius: 15px;
-    background-color: #E6E6E6;
-    margin-right:100px;
+    /*background-color: #E6E6E6;*/
+    margin:3.5%;
+    gap:25px;
+    overflow:hidden; 
 }
 
 .populaire-jaune{
     display:flex;
     flex-direction:column;
+    width:95%;
+    margin:2.5%;
+    gap:50px;
     /*border:solid yellow;*/
-    margin-top:20px;
-    width:480px;
-    margin-right:5px;
 }
 
 .hebergement-bleu #next a {
@@ -205,19 +205,18 @@ form {
     box-shadow: 20px 20px 50px 15px grey;
     transition: 0.2s;
     width: 30%;
-    height:200px;
-    margin-bottom:10px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .card-populaire {
     display: flex;
     box-shadow: 20px 20px 50px 15px grey;
     transition: 0.2s;
-    width: 100%;
-    height: 100px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    width: 90%;
+    border-radius: 15px 15px 15px 15px;
+    margin:2%
     /*border:solid blue;*/
 }
 
@@ -246,7 +245,7 @@ form {
 .populaires {
     width: 420px;
     height: 625px;
-    background-color: #F5F5F2;
+    /*background-color: #F5F5F2;*/
 }
 
 .activite {
@@ -259,9 +258,7 @@ form {
     flex-direction: row;
     gap:90px;
     /*border:solid yellow;*/
-    width:1400px;
-    margin-left:30px;
-    margin-top:10px;
+    width:100%;
 }
 
 .images-activite .card-activite img {
@@ -272,13 +269,13 @@ form {
 }
 
 .card-activite{
-    /*border:solid red;*/
+    /*border:solid red; */
     width:20%;
 }
 
 /*partie footer*/
 footer {
-    width: 1400px;
+    width: 100%;
     height: 150px;
     background-color: #E6E6E6;
     display: flex;
@@ -322,6 +319,23 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+}
+
+/*variables
+:root{
+    --fa-primary-color:blue;
+}
+*/
+
+
+.fa-star {
+    
+    color:blue;
+}
+
+.fa-grey{
+
+    color:lightgray;
 }
 
 
