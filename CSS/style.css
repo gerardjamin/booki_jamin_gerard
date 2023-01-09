@@ -57,10 +57,19 @@ nav img {
     }
 
 /*partie filtre*/
+.filtre {
+    display:flex;
+    gap:50px;
+    margin-bottom: 50px;
+    /*border: solid green;*/
+}
+
 .liens-container {
     display: flex;
     flex-direction: row;
-    gap:30px;
+    justify-content: space-between;
+    width:52%;
+    /*border:solid red;*/
 }
 
  .liens-container a {
@@ -68,17 +77,11 @@ nav img {
         color:black;
     }
 
+ 
 .lien {
-    display: flex;
-    gap: 30px;
+   
     border: 2px solid #E6E6E6;
     border-radius: 20px 20px 20px 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 200px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
     color:blue;
 }
 
@@ -86,9 +89,7 @@ nav img {
     background-color:#C5E3FA;
 }
 
-.filtre {
-    margin-bottom: 50px;
-}
+
 
 #info {
     display: flex;
@@ -105,18 +106,24 @@ form {
     flex-direction: row;
 }
 
-.recherche{
+.rechercher{
     display:flex;
-    align-items:center;
+    align-items:baseline;
     margin-top:30px;
     margin-bottom:30px;
     gap:15px; 
+    
 }
 
 #recherche {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
+}
+
+input{
+    border:none;
+    outline:none;
 }
 
 .titre{
@@ -321,12 +328,12 @@ footer {
     margin-top: 10px;
 }
 
-/*variables
+/*declaration de variables
+
 :root{
-    --fa-primary-color:blue;
+    --variable:blue;
 }
 */
-
 
 .fa-star {
     
