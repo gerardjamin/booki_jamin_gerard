@@ -95,6 +95,8 @@ nav {
     width:136px;
     height:48px;  
     border:solid #F2F2F2;
+    padding-left:4px;
+    padding-right:4px;
 }
 
 .lien-dog {
@@ -152,12 +154,13 @@ input{
     font-size:22px;
     margin-top:20px;
     margin-left:25px;
+    margin-bottom:20px;
 }
 
 .nom {
     font-size: 16px;
     font-weight: bold;
-    margin: 2px 4px 2px 4px;
+    margin: 5px 4px 2px 4px;
 }
 
 /*partie cards*/
@@ -305,40 +308,56 @@ input{
 
 /*partie footer*/
 footer {
-    width: 100%;
-    height: 150px;
-    background-color: #E6E6E6;
     display: flex;
+    flex-direction:row;
+    width: 100%;
+    height:191px;
+    background-color: #E6E6E6;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    /*border:solid blue;*/
+    border:solid blue;
     gap: 300px;
 }
 
-.propos a,.propos {
+.propos a {
     text-decoration:none;
     color:black;
     /*border:solid red;*/
 }
 
-.hebergement a,.hebergement{
+.propos {
+    display: flex;
+    flex-direction: column;
+    align-content:start;
+    height: 100%;
+    /*border: solid red;*/
+}
+.hebergement a {
     text-decoration: none;
     color: black;
-    /*border:solid green;*/
-    
+   
 }
-
-.assistance a, .assistance {
+.hebergement {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    /*border: solid green;*/
+    height: 100%;
+}
+.assistance a {
     text-decoration: none;
     color: black;
     /*border:solid yellow;*/
 }
 
-.assistance p{
-    margin-right:50px;
+.assistance {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    height: 100%;
+    /*border: solid orange;*/
 }
-
 #star-populaire {
     display: flex;
     flex-direction: row;
@@ -351,21 +370,23 @@ footer {
     margin-top: 10px;
 }
 
-/*declaration de variables
+/*declaration de variables personnalisées dans la pseudo classe root
 
 :root{
     --variable:blue;
 }
 */
 
-.fa-star {
-    
+.fa-star {   
     color:blue;
 }
 
 .fa-grey{
-
     color:lightgray;
+}
+
+.fa-blue {
+    color: #0065FC;
 }
 
 h5{
@@ -373,7 +394,11 @@ h5{
     margin-bottom:1.5%;
 }
 
-
+#loca-icone {
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+}
 
 
 
