@@ -401,7 +401,7 @@ h5{
 
 /* sur les ecrans de 992px ou moins (tablette)*/
 @media screen and (max-width: 992px) {
-    .hebergement-vert { 
+    .hebergement-vert {
         flex-direction: column;  
         width: 100%;  
     }
