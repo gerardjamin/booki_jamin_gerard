@@ -463,7 +463,13 @@ h5{
         align-items:center;
         width: 40%;
         gap: 30px;
-        /*border:solid red;*/
+        border:solid red;
+    }
+
+    .hebergement-vert {
+        flex-direction: column-reverse;
+        width: 100%;
+        border:solid brown;
     }
 
     .hebergement-jaune {
@@ -471,17 +477,80 @@ h5{
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        /*border: solid yellow;*/
+        border: solid yellow;
         width: 100%;
+        height:auto;
+    }
+
+    .hebergement-bleu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 37%;
+        border-radius: 15px;
+        border: solid blue;
+    }
+
+    .card-hebergement {
+        box-shadow: 20px 20px 50px 15px grey;
+        transition: 0.2s;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .populaire-jaune {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:auto;
+        border:solid yellow;
+    }
+
+    .populaire-rouge {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 37%;
+        border-radius: 15px;
+        gap: 25px;
+        overflow: hidden;
+        border: solid red;
+    }
+
+    .card-populaire {
+        display: flex;
+        box-shadow: 20px 20px 50px 15px grey;
+        transition: 0.2s;
+        width: 100%;
+        border-radius: 15px 15px 15px 15px;
+        margin: 2%
+        /*border:solid blue;*/
+    }
+
+    .activite {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid red;
     }
 
     .images-activite {
         display: flex;
         flex-direction: column;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         gap: 90px;
-        /*border:solid yellow;*/
+        border: solid purple;
+        width: 37%;
+    }
+
+    .card-activite {
+        border:solid red; 
         width: 100%;
     }
 
@@ -497,29 +566,6 @@ h5{
         /*border:solid blue;*/
         gap: 300px;
     }
-
-    .populaire-jaune {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        height:auto;
-       
-        border:solid yellow;
-    }
-
-    .populaire-rouge {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /*border: solid red;*/
-        width: auto;
-        border-radius: 15px;
-        gap: 25px;
-        overflow: hidden;
-    }
-
-   
 
    
    
