@@ -56,18 +56,18 @@ nav {
 
 /*partie filtre*/
 .filtre {
-    display:flex;
-    gap:50px;
+    display: flex;
+    justify-content: start;
+   
+    /*gap:50px;*/
     margin-bottom: 50px;
-   /* border: solid green;*/
+    border: solid green;
 }
 
 .liens-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:70%;
-    gap:30px;
     /*border:solid red;*/
 }
 
@@ -75,19 +75,25 @@ nav {
         text-decoration: none;
         color:black;
     }
-
-.lien-filtre {
+ 
+#lien-filtre {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     font-size: 18px;
-    width: 136px;
+    width: 200px;
     height: 48px;
     /*border:solid yellow;*/
 }
 
-.lien {
+.groupe-lien{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    /*border:solid orange;*/
+}
+.groupe-lien .lien {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -139,7 +145,8 @@ form {
     align-items:baseline;
     margin-top:30px;
     margin-bottom:30px;
-    gap:15px; 
+    gap:15px;
+    border:solid green;
     
 }
 
@@ -179,7 +186,7 @@ input{
 .hebergement-bleu {
     display: flex;
     flex-direction: column;
-    border: solid blue;
+    /*border: solid blue;*/
     width: 70%;
     margin:2.5%;
     border-radius: 15px;
@@ -311,15 +318,15 @@ input{
 /*partie footer*/
 footer {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     width: 100%;
     /*height:191px;*/
     background-color: #E6E6E6;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    /*border:solid blue;*/
     gap: 300px;
+    /*border:solid blue;*/
 }
 
 .propos a {
@@ -344,8 +351,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: start;
-    /*border: solid green;*/
     height: 100%;
+    /*border: solid green;*/
 }
 .assistance a {
     text-decoration: none;
@@ -435,70 +442,72 @@ h5{
 /* sur les ecrans de 768px ou moins (tablette)*/
 @media screen and (max-width: 768px) {
 
-    nav {
+    #container {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+       border:solid black;
+    }
+
+    nav {
+        flex-direction: column;
         justify-content: space-around;
-        margin: 2% 0 2% 0;
     }
 
     #header {
-        margin: auto;
-        text-align:center;
-    }
-
-    .rechercher {
         display: flex;
         align-items: center;
-        justify-content:center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        gap: 15px;
+        justify-content: center;
+        flex-direction:column;
     }
 
+    .rechercher {  
+        width:40%;
+        /*border: solid green;*/
+    }
+
+    /*
+    .filtre {
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 50px;
+        width:100%;
+        border: solid green;
+    }
     .liens-container {
         display: flex;
         flex-wrap:wrap;
-        justify-content: center;;
-        align-items:center;
         width: 40%;
         gap: 30px;
         border:solid red;
     }
-
+*/
     .hebergement-vert {
         flex-direction: column-reverse;
         width: 100%;
-        border:solid brown;
+        /*border:solid brown;*/
     }
 
     .hebergement-jaune {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items:center;
         border: solid yellow;
         width: 100%;
         height:auto;
     }
 
     .hebergement-bleu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 37%;
-        border-radius: 15px;
-        border: solid blue;
+        width: 40%;
+        /*border: solid blue;*/
     }
 
-    .card-hebergement {
-        box-shadow: 20px 20px 50px 15px grey;
-        transition: 0.2s;
+    .card-hebergement { 
         width: 100%;
         height: 200px;
-        margin-bottom: 10px;
-        border-radius: 15px 15px 15px 15px;
     }
 
     .populaire-jaune {
@@ -506,67 +515,60 @@ h5{
         flex-direction: column;
         width: 100%;
         height:auto;
-        border:solid yellow;
+        /*border:solid yellow;*/
     }
 
     .populaire-rouge {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 37%;
-        border-radius: 15px;
-        gap: 25px;
-        overflow: hidden;
-        border: solid red;
+        width: 40%;
+        /*border: solid red;*/  
     }
 
     .card-populaire {
-        display: flex;
-        box-shadow: 20px 20px 50px 15px grey;
-        transition: 0.2s;
         width: 100%;
-        border-radius: 15px 15px 15px 15px;
-        margin: 2%
         /*border:solid blue;*/
     }
 
     .activite {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: solid red;
+        width: 27%;
+        /*border: solid green;*/
     }
 
     .images-activite {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 90px;
-        border: solid purple;
-        width: 37%;
+        width: 80%;
+        /*border: solid purple;*/
     }
 
     .card-activite {
-        border:solid red; 
         width: 100%;
+        /*border: solid red;*/
+    }
+
+    .images-activite .card-activite img {
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+        width: 100%;
+        height: 190px;
     }
 
     footer {
-        display: flex;
         flex-direction: column;
-        width: 100%;
-        /*height:191px;*/
-        background-color: #E6E6E6;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-        /*border:solid blue;*/
-        gap: 300px;
+        align-items: start;
+        width: 22%;
+        gap: 30px;
+        /*border: solid blue;*/
     }
 
+    .propos, .assistance, .hebergement {
+        margin-left: 20px;
+        /*border: solid red;*/
+    }
+
+    
    
    
    
