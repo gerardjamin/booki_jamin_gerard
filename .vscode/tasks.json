@@ -1,0 +1,91 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    //FIREFOX ************************************************
+    {
+      //démarrer firefox pour executer le fichier en cours
+      "label": "Démarrer Firefox",
+      "type": "process",
+      "command": "C:\\Program Files\\Firefox Developer Edition\\firefox.exe",
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      //démarrer firefox pour executer le fichier en cours avec wampserver
+      "label": "WampServer Firefox",
+      "type": "process",
+      "command": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "args": [
+        "http://localhost/${workspaceFolderBasename}/${relativeFile}"
+      ],
+      "problemMatcher": []
+    },
+    //CHROME **********************************************************
+    {
+      //démarrer chrome pour executer le fichier en cours
+      "label": "Démarrer Chrome",
+      "type": "process",
+      "command": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      //démarrer chrome pour executer le fichier en cours avec wampserver
+      "label": "WampServer Chrome",
+      "type": "process",
+      "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+      "args": [
+        "http://localhost/${workspaceFolderBasename}/${relativeFile}"
+      ],
+      "problemMatcher": []
+    },
+    //EDGE *****************************************************************
+    {
+      //démarrer edge pour executer le fichier en cours
+      "label": "Démarrer Edge",
+      "type": "process",
+      "command": "${workspaceFolder}/DemarrerEdge.exe",
+      "args": [
+        "file:///${file}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      //démarrer edge pour executer le fichier en cours avec wampserver
+      "label": "WampServer Edge",
+      "type": "process",
+      "command": "${workspaceFolder}/DemarrerEdge.exe",
+      "args": [
+        "http://localhost/${workspaceFolderBasename}/${relativeFile}"
+      ],
+      "problemMatcher": []
+    },
+    //INTERNET EXPLORER ********************************************
+    {
+      //démarrer ie pour executer le fichier en cours
+      "label": "Démarrer Explorer",
+      "type": "process",
+      "command": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      //démarrer ie pour executer le fichier en cours avec wampserver
+      "label": "WampServer Explorer",
+      "type": "process",
+      "command": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+      "args": [
+        "http://localhost/${workspaceFolderBasename}/${relativeFile}"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
