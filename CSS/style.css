@@ -58,7 +58,6 @@ nav {
 .filtre {
     display: flex;
     justify-content: start; 
-    /*gap:50px;*/
     margin-bottom: 50px;
     /*border: solid green;*/
 }
@@ -296,9 +295,9 @@ input{
 .images-activite {
     display: flex;
     flex-direction: row;
-    gap:20px;
+    gap: 20px;
+    width: 100%;
     /*border:solid yellow;*/
-    width:100%;
 }
 
 .images-activite .card-activite img {
@@ -318,7 +317,6 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /*height:191px;*/
     background-color: #E6E6E6;
     justify-content: center;
     align-items: center;
@@ -407,7 +405,7 @@ h5{
     background-color: #F2F2F2;
 }
 
-/* sur les ecrans de 992px ou moins (tablette)*/
+/* media query pour les ecrans de 992px ou moins (tablettes)*/
 @media screen and (max-width: 992px) {
     .hebergement-vert {
         flex-direction: column;  
@@ -437,7 +435,7 @@ h5{
     } 
 }
 
-/* sur les ecrans de 768px ou moins (tablette)*/
+/* media query pour les ecrans de 768px ou moins (mobiles)*/
 @media screen and (max-width: 768px) {
 
     #container {
