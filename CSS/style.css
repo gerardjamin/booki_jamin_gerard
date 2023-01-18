@@ -634,7 +634,8 @@ h5{
     }
 
     .menu a:hover {
-      border-bottom: 2px solid #0065FC;
+        border-top:none;
+        border-bottom: 2px solid #0065FC;
         color: #0065FC;
     }
 
