@@ -1,19 +1,23 @@
 ﻿/*toutes les marges de la page sont misent à 0 */
 *{
-    margin:0;
+    /*margin:0;*/
 }
 
 body {
     font-family: 'raleway',sans-serif;
-    margin: auto;
-    max-width: 1400px;
-    width: 100%;
+    width: 81%;
+    padding:3%;
     /*background-color: limegreen;*/
 }
 
+html {
+    /*background: blue;*/
+    max-width: 1400px;
+}
+
 #header {
-    margin: auto;
-    width: 100%;
+    /*margin: auto;*/
+    width: 95%;
 }
 
 .rechercher {
@@ -41,7 +45,7 @@ body {
     flex-direction: row;
     gap: 20px;
     font-weight: 400;
-    width: 100%;
+    width: 80%;
 }
 
 .main{
@@ -93,8 +97,7 @@ nav {
 #lien-filtre {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    margin-right:1%;
     font-size: 18px;
     width: 200px;
     height: 48px;
@@ -388,6 +391,9 @@ footer {
 }
 */
 
+fa-info {
+    margin-top: 25px;
+}
 .fa-star {   
     color:blue;
 }
@@ -418,6 +424,10 @@ h5{
         justify-content: start;
         width:20%;
         /*border:solid yellow;*/
+    }
+
+    .liens-container {
+       width:50%;
     }
 
     .groupe-lien {
@@ -473,6 +483,12 @@ h5{
         width:100%;
         /*border:solid blue;*/
     }
+
+    body {
+        width: 85%;
+        padding: 2%;
+    }
+
 }
 
 /* sur les ecrans de 768px ou moins (tablette)*/
@@ -610,6 +626,16 @@ h5{
         margin-left: 20px;
         width:100%;
         /*border: solid red;*/
+    }
+
+    body {
+        width: 90%;
+        padding: 3%;
+    }
+
+    .menu a:hover {
+      border-bottom: 2px solid #0065FC;
+        color: #0065FC;
     }
 
     
