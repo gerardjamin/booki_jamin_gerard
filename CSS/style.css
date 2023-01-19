@@ -214,11 +214,11 @@ input{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    width: 30%;
     border-radius: 15px;
     gap: 25px;
     overflow: hidden;
     /*border: solid red;*/
+    height:auto;
 }
 
 .populaire-jaune{
@@ -226,7 +226,7 @@ input{
     flex-direction:column;
     width:100%;
     margin:2.5%;
-    gap:50px;
+    gap:30px;
     /*border:solid yellow;*/
     background:#F2F2F2;
 }
@@ -275,14 +275,14 @@ input{
     object-fit: cover;
     border-radius: 15px 15px 15px 15px;
     width:100%;
-    height:100px;
+    height:90px;
 }
 
 .Img-populaire {
     object-fit: cover;
     border-radius: 15px 15px 15px 15px;
     width: 40%;
-    height: 100%;
+    height: 111px;
     /*border:solid red;*/
 }
 
@@ -442,7 +442,6 @@ h5{
     }
     .hebergement-bleu {
         width: 100%;
-        /*margin:auto;*/
         /*background-color: beige;*/
     }
     .hebergement-jaune {
@@ -453,14 +452,10 @@ h5{
 
     .populaire-rouge {
         width: 100%;
-        justify-content:space-between;
-        /*gap:0px;*/
-        /*margin:auto;*/
         /*background-color:gold;*/
     }
     .populaire-jaune {
         flex-direction: row;
-        /*justify-content: space-around;*/
         width:95%;
         /*background-color:brown;*/
     }
@@ -538,11 +533,6 @@ h5{
         width: 120%;
         /*border:solid yellow;*/
     }
-
-    /*.groupe-lien {
-       margin-bottom:20px;*/
-        /*border:solid orange;*/
-    /*}*/
 
     .hebergement-vert {
         flex-direction: column-reverse;
