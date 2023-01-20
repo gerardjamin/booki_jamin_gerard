@@ -30,6 +30,16 @@ html {
     /*border:solid green;*/
 }
 
+#recherche {
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#recherche-loupe {
+    display: none;
+}
+
 /*partie filtre*/
 .filtre {
     display: flex;
@@ -149,12 +159,6 @@ nav {
 form {
     display: flex;
     flex-direction: row;
-}
-
-#recherche {
-    background-color: #0065FC;
-    color: white;
-    border-radius: 0px 10px 10px 0px;
 }
 
 input{
@@ -406,9 +410,9 @@ fa-info {
     color: #0065FC;
 }
 
-h5{
-    font-size:16px;
-    margin-bottom:1.5%;
+h5 {
+    font-size: 16px;
+    margin-bottom: 1.5%;
 }
 
 #loca-icone {
@@ -522,6 +526,19 @@ h5{
         justify-content: center;
         width: 40%;
         /*border: solid green;*/
+    }
+
+    #recherche {
+        display: none;
+    }
+
+    #recherche-loupe {
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0px 10px 10px 0px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
     }
 
     .filtre {
