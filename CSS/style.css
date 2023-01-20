@@ -376,16 +376,16 @@ footer {
     width: 20%;
     /*border: solid orange;*/
 }
-#star-populaire {
+.star-populaire {
     display: flex;
     flex-direction: row;
     margin-top:15px;
+    padding-bottom:20px;
 }
 
-#star-logement {
+.star-logement {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
 }
 
 /*declaration de variables personnalisées dans la pseudo classe root
