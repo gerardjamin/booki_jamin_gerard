@@ -1,18 +1,19 @@
 ﻿/*toutes les marges de la page sont misent à 0 */
-*{
-    /*margin:0;*/
-}
 
-body {
-    font-family: 'raleway',sans-serif;
-    width: 81%;
-    padding:3%;
-    /*background-color: limegreen;*/
+* {
+    /*margin:0;*/
 }
 
 html {
     /*background: blue;*/
     max-width: 1450px;
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+    width: 81%;
+    padding: 3%;
+    /*background-color: limegreen;*/
 }
 
 #header {
@@ -26,7 +27,7 @@ html {
     margin-top: 30px;
     margin-bottom: 30px;
     gap: 15px;
-    width:100%
+    width: 100%
     /*border:solid green;*/
 }
 
@@ -40,13 +41,15 @@ html {
     display: none;
 }
 
+
 /*partie filtre*/
+
 .filtre {
     display: flex;
     justify-content: start;
     /*gap:50px;*/
     margin-bottom: 50px;
-    width:100%;
+    width: 100%;
     /*border: solid green;*/
 }
 
@@ -58,33 +61,35 @@ html {
     width: 80%;
 }
 
-.main{
-    width:100%;
+.main {
+    width: 100%;
     /*background-color:aqua;*/
 }
 
-p{
-    font-weight:normal;
+p {
+    font-weight: normal;
 }
 
+
 /*partie navigation*/
+
 nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin:2% 0 2% 0;
+    margin: 2% 0 2% 0;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    gap: 30px;  
+    gap: 30px;
 }
 
 .menu a {
-        text-decoration: none;
-        color:black;
+    text-decoration: none;
+    color: black;
 }
 
 .menu a:hover {
@@ -100,42 +105,43 @@ nav {
     /*border:solid red;*/
 }
 
- .liens-container a {
-        text-decoration: none;
-        color:black;
-    }
- 
+.liens-container a {
+    text-decoration: none;
+    color: black;
+}
+
 #lien-filtre {
     display: flex;
     justify-content: center;
-    margin-right:1%;
+    margin-right: 1%;
     font-size: 18px;
     width: 200px;
     height: 48px;
     /*border:solid yellow;*/
 }
 
-.groupe-lien{
-    display:flex;
-    flex-direction:row;
-    width:90%;
-    gap:30px;
+.groupe-lien {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 30px;
     /*border:solid orange;*/
 }
+
 .groupe-lien .lien {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     border: 2px solid #E6E6E6;
     border-radius: 20px 20px 20px 20px;
-    color:blue;
-    font-size:17px;
-    width:136px;
-    height:48px;  
-    border:solid #F2F2F2;
-    padding-left:4px;
-    padding-right:4px;
+    color: blue;
+    font-size: 17px;
+    width: 136px;
+    height: 48px;
+    border: solid #F2F2F2;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .lien-dog {
@@ -152,25 +158,28 @@ nav {
     border: solid #F2F2F2;
 }
 
-.lien:hover ,.lien-dog:hover{
-    background-color:#DEEBFF;
+.lien:hover,
+.lien-dog:hover {
+    background-color: #DEEBFF;
 }
 
+
 /*partie formulaire*/
+
 form {
     display: flex;
     flex-direction: row;
 }
 
-input{
-    border:none;
-    outline:none;
+input {
+    border: none;
+    outline: none;
 }
 
-.titre{
-    font-size:22px;
-    margin-top:20px;
-    margin-left:25px;
+.titre {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 25px;
 }
 
 .nom {
@@ -179,7 +188,9 @@ input{
     margin: 5px 4px 2px 4px;
 }
 
+
 /*partie cards*/
+
 .hebergement-vert {
     display: flex;
     flex-direction: row;
@@ -187,7 +198,6 @@ input{
     width: 100%;
     justify-content: space-between;
     /*border: solid green;*/
-   
 }
 
 .hebergement-bleu {
@@ -196,7 +206,7 @@ input{
     width: 72%;
     border-radius: 15px;
     /*border: solid blue;*/
-    background:#F2F2F2;
+    background: #F2F2F2;
 }
 
 .hebergement-rouge {
@@ -225,33 +235,33 @@ input{
     gap: 20px;
     overflow: hidden;
     /*border: solid red;*/
-    height:auto;
+    height: auto;
 }
 
 .populaire-jaune{
     display:flex;
     flex-direction:column;
-    align-items:center;
     width:100%;
     margin:2.5%;
     gap:30px;
     /*border:solid yellow;*/
-    background:#F2F2F2;
+    background: #F2F2F2;
 }
 
 .hebergement-bleu #next a {
     text-decoration: none;
     color: black;
-    font-size:18px;
-
+    font-size: 18px;
 }
+
 .card-container {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:center;
-    font-weight:normal;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
 }
+
 .card-hebergement {
     box-shadow: 20px 20px 50px 15px grey;
     transition: 0.2s;
@@ -269,23 +279,23 @@ input{
     transition: 0.2s;
     width: 90%;
     border-radius: 15px 15px 15px 15px;
-    margin:2%
+    margin: 2%
     /*border:solid blue;*/
 }
 
 .card-hebergement:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-populaire:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
 
 .Img-hebergement {
     object-fit: cover;
     border-radius: 15px 15px 15px 15px;
-    width:100%;
-    height:90px;
+    width: 100%;
+    height: 90px;
 }
 
 .Img-populaire {
@@ -305,31 +315,34 @@ input{
 .activite {
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
     /*border:solid red;*/
 }
+
 .images-activite {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     /*gap:20px;*/
     /*border:solid yellow;*/
-    width:100%;
+    width: 100%;
 }
 
-    .images-activite .card-activite img {
-        object-fit: cover;
-        border-radius: 15px 15px 0px 0px;
-        width: 100%;
-        height: 250px;
-    }
+.images-activite .card-activite img {
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 250px;
+}
 
 .card-activite {
     width: 20%;
     /*border:solid red; */
 }
 
+
 /*partie footer*/
+
 footer {
     display: flex;
     flex-direction: row;
@@ -345,22 +358,24 @@ footer {
 .propos a {
     text-decoration: none;
     font-weight: 400;
-    margin-top:10px;
+    margin-top: 10px;
     /*border:solid red;*/
 }
 
 .propos {
     display: flex;
     flex-direction: column;
-    align-content:start;
-    width:20%;
+    align-content: start;
+    width: 20%;
     /*border: solid red;*/
 }
+
 .hebergement a {
     text-decoration: none;
     font-weight: 400;
     margin-top: 10px;
 }
+
 .hebergement {
     display: flex;
     flex-direction: column;
@@ -368,6 +383,7 @@ footer {
     width: 20%;
     /*border: solid green;*/
 }
+
 .assistance a {
     text-decoration: none;
     font-weight: 400;
@@ -382,17 +398,19 @@ footer {
     width: 20%;
     /*border: solid orange;*/
 }
+
 .star-populaire {
     display: flex;
     flex-direction: row;
-    margin-top:15px;
-    padding-bottom:20px;
+    margin-top: 15px;
+    padding-bottom: 20px;
 }
 
 .star-logement {
     display: flex;
     flex-direction: row;
 }
+
 
 /*declaration de variables personnalisées dans la pseudo classe root
 
@@ -404,12 +422,13 @@ footer {
 fa-info {
     margin-top: 25px;
 }
-.fa-star {   
-    color:blue;
+
+.fa-star {
+    color: blue;
 }
 
-.fa-grey{
-    color:lightgray;
+.fa-grey {
+    color: lightgray;
 }
 
 .fa-blue {
@@ -427,25 +446,23 @@ h5 {
     background-color: #F2F2F2;
 }
 
-/* sur les ecrans de 992px ou moins (tablette)*/
-@media screen and (max-width: 992px) {
 
+/* sur les ecrans de 992px ou moins (tablette)*/
+
+@media screen and (max-width: 992px) {
     #lien-filtre {
         justify-content: start;
-        width:20%;
+        width: 20%;
         /*border:solid yellow;*/
     }
-
     .liens-container {
-       width:50%;
+        width: 50%;
     }
-
     .groupe-lien {
         width: 90%;
         margin-bottom: 10px;
         /*border:solid orange;*/
     }
-
     .hebergement-vert {
         flex-direction: column;
         width: 100%;
@@ -455,114 +472,98 @@ h5 {
         /*background-color: beige;*/
     }
     .hebergement-jaune {
-        margin-bottom:10px;
-        width:100%;
+        margin-bottom: 10px;
+        width: 100%;
         /*background-color:blueviolet;*/
     }
-
     .populaire-rouge {
         width: 100%;
         /*background-color:gold;*/
     }
     .populaire-jaune {
         flex-direction: row;
-        width:95%;
+        width: 95%;
         /*background-color:brown;*/
     }
     .card-populaire {
-        margin:0px;
+        margin: 0px;
     }
-
     .images-activite {
         width: 100%;
     }
-
-    #next{
-        margin-left:20px;
+    #next {
+        margin-left: 20px;
     }
-
-    footer { 
-        justify-content:space-around;
+    footer {
+        justify-content: space-around;
         background-color: #E6E6E6;
         margin-top: 40px;
-        width:100%;
+        width: 100%;
         /*border:solid blue;*/
     }
-
     body {
         width: 85%;
         padding: 2%;
     }
-
 }
 
+
 /* sur les ecrans de 768px ou moins (tablette)*/
+
 @media screen and (max-width: 768px) {
-
-    h2{
-        text-align:center;
+    h2 {
+        text-align: center;
     }
-
     .groupe-lien {
-       width:100%;
-       margin-bottom:10px;
+        width: 100%;
+        margin-bottom: 10px;
         /*border:solid orange;*/
     }
-
-    .lien{
-        width:100%;
+    .lien {
+        width: 100%;
     }
-
     nav {
         flex-direction: column;
         justify-content: space-around;
-        width:100%;
+        width: 100%;
     }
-
     #header {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width:100%;
+        width: 100%;
     }
-
     .rechercher {
         align-items: center;
         justify-content: center;
         width: 40%;
         /*border: solid green;*/
     }
-
     #recherche {
         display: none;
     }
-
     #recherche-loupe {
         background-color: #0065FC;
         color: white;
         border-radius: 0px 10px 10px 0px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
     .filtre {
-       flex-direction:column;
+        flex-direction: column;
     }
-
     #lien-filtre {
         justify-content: start;
         width: 120%;
         /*border:solid yellow;*/
     }
-
     .hebergement-vert {
         flex-direction: column-reverse;
         width: 100%;
         /*border:solid brown;*/
     }
-
     .hebergement-jaune {
         display: flex;
         flex-direction: column;
@@ -570,55 +571,46 @@ h5 {
         height: auto;
         /*border: solid yellow;*/
     }
-
     .hebergement-bleu {
         width: 100%;
         /*border: solid blue;*/
     }
-
-    .card-hebergement { 
+    .card-hebergement {
         width: 100%;
         height: 200px;
     }
-
     .populaire-jaune {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height:auto;
+        height: auto;
         /*border:solid yellow;*/
     }
-
     .populaire-rouge {
         justify-content: center;
         align-items: center;
         width: 100%;
-        /*border: solid red;*/  
+        /*border: solid red;*/
     }
-
     .card-populaire {
         width: 100%;
         /*border:solid blue;*/
     }
-
     .activite {
         justify-content: center;
         align-items: center;
         width: 100%;
         /*border: solid green;*/
     }
-
     .images-activite {
         flex-direction: column;
         width: 100%;
         /*border: solid purple;*/
     }
-
     .card-activite {
         width: 100%;
         /*border: solid red;*/
     }
-
     .images-activite .card-activite img {
         /*object-fit: cover;*/
         border-radius: 15px 15px 0px 0px;
@@ -626,7 +618,6 @@ h5 {
         height: 190px;
         /*border:solid orange;*/
     }
-
     footer {
         flex-direction: column;
         align-items: start;
@@ -634,60 +625,21 @@ h5 {
         gap: 30px;
         /*border: solid blue;*/
     }
-
-    .propos, .assistance, .hebergement {
+    .propos,
+    .assistance,
+    .hebergement {
         margin-left: 20px;
-        width:100%;
+        width: 100%;
         /*border: solid red;*/
     }
-
     body {
         width: 90%;
         padding: 3%;
     }
-
     .menu a:hover {
-        border-top:none;
+        border-top: none;
         border-bottom: 2px solid #0065FC;
+        padding-top:8px;
         color: #0065FC;
     }
-
-    
-   
-   
-   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
