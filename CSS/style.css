@@ -5,20 +5,29 @@
 }
 
 html {
-    /*background: blue;*/
-    max-width: 1450px;
+    background: blue;
+   
 }
 
 body {
     font-family: 'raleway', sans-serif;
-    width: 81%;
+    max-width: 1400px;
+    width: 100%;
+    margin:auto;
     padding: 3%;
-    /*background-color: limegreen;*/
+    background-color: white;
 }
 
 #header {
     /*margin: auto;*/
     width: 95%;
+}
+#fname {
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .rechercher {
@@ -47,7 +56,6 @@ body {
 .filtre {
     display: flex;
     justify-content: start;
-    /*gap:50px;*/
     margin-bottom: 50px;
     width: 100%;
     /*border: solid green;*/
@@ -67,7 +75,11 @@ body {
 }
 
 p {
-    font-weight: normal;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 
@@ -85,6 +97,16 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    /* Blue */
+
+    color: #0065FC;
 }
 
 .menu a {
@@ -92,10 +114,11 @@ nav {
     color: black;
 }
 
-.menu a:hover {
+    .menu a:hover {
         border-top: 2px solid #0065FC;
+        font-weight: 500;
         color: #0065FC;
-        padding-top:20px;
+        padding-top: 20px;
     }
 
 .liens-container {
@@ -114,9 +137,15 @@ nav {
     display: flex;
     justify-content: center;
     margin-right: 1%;
-    font-size: 18px;
     width: 200px;
     height: 48px;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
     /*border:solid yellow;*/
 }
 
@@ -128,7 +157,7 @@ nav {
     /*border:solid orange;*/
 }
 
-.groupe-lien .lien {
+.lien {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,26 +165,22 @@ nav {
     border: 2px solid #E6E6E6;
     border-radius: 20px 20px 20px 20px;
     color: blue;
-    font-size: 17px;
+   
     width: 136px;
     height: 48px;
-    border: solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     padding-left: 4px;
     padding-right: 4px;
+
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .lien-dog {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid #E6E6E6;
-    border-radius: 20px 20px 20px 20px;
-    color: blue;
-    font-size: 17px;
     width: 226px;
-    height: 48px;
-    border: solid #F2F2F2;
 }
 
 .lien:hover,
@@ -177,20 +202,32 @@ input {
 }
 
 .titre {
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
     font-size: 22px;
+    line-height: 26px;
     margin-top: 20px;
     margin-left: 25px;
 }
 
 .nom {
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
-    font-weight: bold;
+    line-height: 19px;
     margin: 5px 4px 2px 4px;
 }
 
-
+nom-footer {
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
 /*partie cards*/
-
 .hebergement-vert {
     display: flex;
     flex-direction: row;
@@ -248,10 +285,14 @@ input {
     background: #F2F2F2;
 }
 
-.hebergement-bleu #next a {
+#next a {
     text-decoration: none;
-    color: black;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 700;
     font-size: 18px;
+    line-height: 21px;
+    margin-left:23px;
 }
 
 .card-container {
@@ -347,17 +388,20 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /*height:191px;*/
+    padding-bottom:10px;
     background-color: #E6E6E6;
     justify-content: space-around;
-    /*align-items: center;*/
     margin-top: 40px;
     /*border:solid blue;*/
 }
 
 .propos a {
     text-decoration: none;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     margin-top: 10px;
     /*border:solid red;*/
 }
@@ -372,7 +416,11 @@ footer {
 
 .hebergement a {
     text-decoration: none;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     margin-top: 10px;
 }
 
@@ -386,7 +434,11 @@ footer {
 
 .assistance a {
     text-decoration: none;
+    /*font-family: 'Raleway';*/
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     margin-top: 10px;
     /*border:solid yellow;*/
 }
@@ -436,8 +488,11 @@ fa-info {
 }
 
 h5 {
+    /*font-family: 'Raleway';*/
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    margin-bottom: 1.5%;
+    line-height: 19px;
 }
 
 #loca-icone {
@@ -456,7 +511,7 @@ h5 {
         /*border:solid yellow;*/
     }
     .liens-container {
-        width: 50%;
+        /*width: 50%;*/
     }
     .groupe-lien {
         width: 90%;
@@ -491,7 +546,11 @@ h5 {
     .images-activite {
         width: 100%;
     }
-    #next {
+    #next a{
+        /*font-family: 'Raleway';*/
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
         margin-left: 20px;
     }
     footer {
@@ -512,7 +571,29 @@ h5 {
 
 @media screen and (max-width: 768px) {
     h2 {
+        /*font-family: 'Raleway';*/
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
         text-align: center;
+    }
+    #next{
+        display:none;
+    }
+
+    .titre-activites {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        padding-right: 160px;
+        margin-left: 0px;
+    }
+
+    .card-container{
+        align-items:flex-start;
+        padding-left:10px;
     }
     .groupe-lien {
         width: 100%;
@@ -521,6 +602,8 @@ h5 {
     }
     .lien {
         width: 100%;
+        font-size: 11px;
+        line-height: 13px;
     }
     nav {
         flex-direction: column;
