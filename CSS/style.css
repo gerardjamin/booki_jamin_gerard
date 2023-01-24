@@ -278,7 +278,7 @@ nom-footer {
     align-items: center;
     justify-content: space-around;
     border-radius: 15px;
-    width: 28%;
+    width: 35%;
     gap: 20px;
     overflow: hidden;
     height: auto;
@@ -480,6 +480,10 @@ footer {
     --variable:blue;
 }
 */
+.fa-solid, .fas {
+    font-weight: 900;
+    width: 1px;
+}
 
 fa-info {
     margin-top: 25px;
@@ -554,13 +558,16 @@ h5 {
 
     .populaire-jaune {
         flex-direction: row;
-        width: 95%;
+        width: 100%;
         /*background-color:brown;*/
     }
 
     .card-populaire {
         margin: 0px;
+        width:255px;
     }
+
+    
 
     .images-activite {
         width: 100%;
@@ -711,20 +718,15 @@ h5 {
 
     .card-hebergement {
         width: 100%;
-        height: 200px;
     }
 
     .populaire-jaune {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
         height: auto;
         /*border:solid yellow;*/
     }
 
     .populaire-rouge {
         justify-content: center;
-        align-items: center;
         width: 100%;
         /*border: solid red;*/
     }
@@ -737,7 +739,6 @@ h5 {
     .activite {
         justify-content: center;
         align-items: center;
-        width: 100%;
         /*border: solid green;*/
     }
 
@@ -755,7 +756,6 @@ h5 {
     .images-activite .card-activite img {
         /*object-fit: cover;*/
         border-radius: 15px 15px 0px 0px;
-        width: 100%;
         height: 190px;
         /*border:solid orange;*/
     }
@@ -763,7 +763,6 @@ h5 {
     footer {
         flex-direction: column;
         align-items: start;
-        width: 100%;
         gap: 30px;
         /*border: solid blue;*/
     }
