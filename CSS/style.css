@@ -208,7 +208,11 @@ input {
     font-size: 22px;
     line-height: 26px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 5px;
+}
+
+.fa-solid,.fas{
+    padding-right:20px;
 }
 
 .nom {
@@ -262,6 +266,15 @@ nom-footer {
     /*border: solid yellow;*/
 }
 
+.icone-populaire{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    border:solid black 1px;
+}
+
 .populaire-rouge {
     display: flex;
     flex-direction: column;
@@ -271,7 +284,7 @@ nom-footer {
     width:28%;
     gap: 20px;
     overflow: hidden;
-    /*border: solid red;*/
+    border: solid red;
     height: auto;
 }
 
@@ -281,7 +294,7 @@ nom-footer {
     width:100%;
     margin:2.5%;
     gap:30px;
-    /*border:solid yellow;*/
+    border:solid yellow;
     background: #F2F2F2;
 }
 
