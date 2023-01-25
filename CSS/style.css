@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    box-sizing:border-box;
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
     width: 100%;
@@ -211,7 +212,7 @@ input {
     flex-direction: row;
 }
 
-.fa-solid, .fas {
+.fa-chart-line {
     padding-right: 20px;
 }
 
@@ -554,6 +555,7 @@ h5 {
 
     .populaire-rouge {
         width: 100%;
+        margin-top:25px;
         /*background-color:gold;*/
     }
 
@@ -638,6 +640,7 @@ h5 {
         width: 100%;
         font-size: 11px;
         line-height: 13px;
+        justify-content:start;
     }
 
     nav {
@@ -725,6 +728,7 @@ h5 {
 
     .hebergement-bleu {
         width: 100%;
+        margin-top:25px;
         /*border: solid blue;*/
     }
 
@@ -734,7 +738,7 @@ h5 {
 
     .populaire-jaune {
         flex-direction: column;
-        border: solid yellow;
+        /*border: solid yellow;*/
     }
 
     .populaire-rouge {
