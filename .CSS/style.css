@@ -1,13 +1,5 @@
 ﻿/*toutes les marges de la page sont misent à 0 */
 
-* {
-    margin:0 auto;
-    Padding:0;
-    box-sizing:border-box;
-
-
-}
-
 html {
     background: blue;
 }
