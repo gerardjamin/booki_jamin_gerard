@@ -1,9 +1,5 @@
 ﻿/*toutes les marges de la page sont misent à 0 */
 
-* {
-    /*margin:0;*/
-}
-
 html {
     background: blue;
 }
@@ -247,7 +243,7 @@ input {
     display: flex;
     flex-direction: column;
     width: 67%;
-    height:auto;
+    height: auto;
     border-radius: 15px;
     /*border: solid blue;*/
     background: #F2F2F2;
@@ -477,7 +473,7 @@ footer {
 .fa-solid, .fas {
     font-weight: 900;
     width: 1px;
-    margin-right:25px;
+    margin-right: 25px;
 }
 
 fa-info {
@@ -514,11 +510,12 @@ h5 {
 /* sur les ecrans de 992px ou moins (tablette)*/
 
 @media screen and (max-width: 992px) {
-    nav{
-        justify-content:start;
-        margin:0 0 0 0;
-        gap:30%;
+    nav {
+        justify-content: start;
+        margin: 0 0 0 0;
+        gap: 30%;
     }
+
     .filtre {
         width: 100%;
     }
