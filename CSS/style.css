@@ -1,11 +1,11 @@
 ﻿/*toutes les marges de la page sont misent à 0 */
 
 html {
-    background: blue;
+    /* background: blue; */
 }
 
 body {
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
     width: 100%;
@@ -101,17 +101,17 @@ nav {
     color: #0065FC;
 }
 
-    .menu a {
-        text-decoration: none;
-        color: black;
-    }
+.menu a {
+    text-decoration: none;
+    color: black;
+}
 
-        .menu a:hover {
-            border-top: 2px solid #0065FC;
-            font-weight: 500;
-            color: #0065FC;
-            padding-top: 20px;
-        }
+.menu a:hover {
+    border-top: 2px solid #0065FC;
+    font-weight: 500;
+    color: #0065FC;
+    padding-top: 20px;
+}
 
 .liens-container {
     display: flex;
@@ -120,10 +120,10 @@ nav {
     /*border:solid red;*/
 }
 
-    .liens-container a {
-        text-decoration: none;
-        color: black;
-    }
+.liens-container a {
+    text-decoration: none;
+    color: black;
+}
 
 #lien-filtre {
     display: flex;
@@ -173,10 +173,10 @@ nav {
     width: 226px;
 }
 
-    .lien:hover,
-    .lien-dog:hover {
-        background-color: #DEEBFF;
-    }
+.lien:hover,
+.lien-dog:hover {
+    background-color: #DEEBFF;
+}
 
 
 /*partie formulaire*/
@@ -191,7 +191,8 @@ input {
     outline: none;
 }
 
-.titre, .titre-activites {
+.titre,
+.titre-activites {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -230,7 +231,10 @@ input {
     font-size: 18px;
     line-height: 21px;
 }
+
+
 /*partie cards*/
+
 .hebergement-vert {
     display: flex;
     flex-direction: row;
@@ -382,12 +386,12 @@ input {
     width: 100%;
 }
 
-    .images-activite .card-activite img {
-        object-fit: cover;
-        border-radius: 15px 15px 0px 0px;
-        width: 100%;
-        height: 250px;
-    }
+.images-activite .card-activite img {
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 250px;
+}
 
 .card-activite {
     width: 20%;
@@ -471,7 +475,9 @@ footer {
     --variable:blue;
 }
 */
-.fa-solid, .fas {
+
+.fa-solid,
+.fas {
     font-weight: 900;
     width: 1px;
     margin-right: 25px;
@@ -516,66 +522,52 @@ h5 {
         margin: 0 0 0 0;
         gap: 30%;
     }
-
     .filtre {
         width: 100%;
     }
-
     #lien-filtre {
         justify-content: start;
         width: 20%;
         /*border:solid yellow;*/
     }
-
     .liens-container {
         /*width: 50%;*/
     }
-
     .groupe-lien {
         width: 90%;
         margin-bottom: 10px;
         /*border:solid orange;*/
     }
-
     .hebergement-vert {
         flex-direction: column;
         width: 100%;
     }
-
     .hebergement-bleu {
         width: 100%;
         /*background-color: beige;*/
     }
-
     .hebergement-jaune {
         margin-bottom: 10px;
         width: 100%;
         /*background-color:blueviolet;*/
     }
-
     .populaire-rouge {
         width: 100%;
-        margin-top:25px;
+        margin-top: 25px;
         /*background-color:gold;*/
     }
-
     .populaire-jaune {
         flex-direction: row;
         width: 100%;
         /*background-color:brown;*/
     }
-
     .card-populaire {
         margin: 0px;
         width: 255px;
     }
-
-
-
     .images-activite {
         width: 100%;
     }
-
     #next a {
         /*font-family: 'Raleway';*/
         font-style: normal;
@@ -583,7 +575,6 @@ h5 {
         font-size: 18px;
         margin-left: 20px;
     }
-
     footer {
         justify-content: space-around;
         background-color: #E6E6E6;
@@ -605,16 +596,13 @@ h5 {
         line-height: 26px;
         text-align: center;
     }
-
     h5 {
         margin-top: 13px;
         margin-bottom: 36px;
     }
-
     #next {
         display: none;
     }
-
     .titre-activites {
         font-style: normal;
         font-weight: 700;
@@ -623,33 +611,28 @@ h5 {
         padding-right: 160px;
         margin-left: 0px;
     }
-
     .card-container {
         align-items: flex-start;
         padding-left: 10px;
     }
-
     .groupe-lien {
         width: 100%;
         margin-bottom: 10px;
         gap: 14px;
         /*border:solid orange;*/
     }
-
     .lien {
         width: 100%;
         font-size: 11px;
         line-height: 13px;
-        justify-content:start;
+        justify-content: start;
     }
-
     nav {
         flex-direction: column;
         justify-content: space-around;
         width: 100%;
         gap: 28px;
     }
-
     #header {
         display: flex;
         flex-direction: column;
@@ -657,36 +640,30 @@ h5 {
         justify-content: center;
         width: 100%;
     }
-
     .menu {
         gap: 91px;
     }
-
-        .menu a:hover {
-            border-top: none;
-            border-bottom: 2px solid #0065FC;
-            padding-bottom: 20px;
-            padding-top: 0px;
-            color: #0065FC;
-        }
-
+    .menu a:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        color: #0065FC;
+    }
     .form {
         width: 100%;
         justify-content: space-between;
         padding-left: 17px;
     }
-
     .rechercher {
         align-items: center;
         justify-content: center;
         width: 100%;
         /*border: solid green;*/
     }
-
     #recherche {
         display: none;
     }
-
     #recherche-loupe {
         background-color: #0065FC;
         color: white;
@@ -695,11 +672,9 @@ h5 {
         justify-content: center;
         align-items: center;
     }
-
     .filtre {
         flex-direction: column;
     }
-
     #lien-filtre {
         justify-content: start;
         width: 100%;
@@ -707,17 +682,14 @@ h5 {
         margin-bottom: 15px;
         /*border:solid yellow;*/
     }
-
     .liens-container {
         margin-top: 17px;
     }
-
     .hebergement-vert {
         flex-direction: column-reverse;
         width: 100%;
         /*border:solid brown;*/
     }
-
     .hebergement-jaune {
         display: flex;
         flex-direction: column;
@@ -725,64 +697,53 @@ h5 {
         height: auto;
         /*border: solid yellow;*/
     }
-
     .hebergement-bleu {
         width: 100%;
-        margin-top:25px;
+        margin-top: 25px;
         /*border: solid blue;*/
     }
-
     .card-hebergement {
         width: 100%;
     }
-
     .populaire-jaune {
         flex-direction: column;
         /*border: solid yellow;*/
     }
-
     .populaire-rouge {
         justify-content: center;
         width: 100%;
         /*border: solid red;*/
     }
-
     .card-populaire {
         width: 100%;
         /*border:solid blue;*/
     }
-
     .activite {
         justify-content: center;
         align-items: center;
         /*border: solid green;*/
     }
-
     .images-activite {
         flex-direction: column;
         width: 100%;
         /*border: solid purple;*/
     }
-
     .card-activite {
         width: 100%;
         /*border: solid red;*/
     }
-
     .images-activite .card-activite img {
         /*object-fit: cover;*/
         border-radius: 15px 15px 0px 0px;
         height: 190px;
         /*border:solid orange;*/
     }
-
     footer {
         flex-direction: column;
         align-items: start;
         gap: 30px;
         /*border: solid blue;*/
     }
-
     .propos,
     .assistance,
     .hebergement {
