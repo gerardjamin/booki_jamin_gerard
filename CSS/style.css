@@ -25,7 +25,7 @@ body {
 #fname {
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     width: 55%;
 }
@@ -227,7 +227,7 @@ input {
     margin: 5px 4px 2px 4px;
 }
 
-nom-footer {
+.nom-footer {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -287,6 +287,7 @@ nom-footer {
     gap: 20px;
     overflow: hidden;
     height: auto;
+    background: #F2F2F2;
     /*border: solid red;*/
 }
 
@@ -296,7 +297,6 @@ nom-footer {
     width: 100%;
     margin: 2.5%;
     gap: 30px;
-    background: #F2F2F2;
     /*border: solid yellow;*/
 }
 
@@ -601,6 +601,11 @@ h5 {
         text-align: center;
     }
 
+    h5 {
+        margin-top: 13px;
+        margin-bottom:36px;
+    }
+
     #next {
         display: none;
     }
@@ -622,6 +627,7 @@ h5 {
     .groupe-lien {
         width: 100%;
         margin-bottom: 10px;
+        gap:14px;
         /*border:solid orange;*/
     }
 
@@ -635,7 +641,7 @@ h5 {
         flex-direction: column;
         justify-content: space-around;
         width: 100%;
-        gap: 48px;
+        gap: 28px;
     }
 
     #header {
@@ -646,13 +652,17 @@ h5 {
         width: 100%;
     }
 
-    .menu a:hover {
-        border-top: none;
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 20px;
-        padding-top: 0px;
-        color: #0065FC;
+    .menu {
+        gap: 91px;
     }
+
+        .menu a:hover {
+            border-top: none;
+            border-bottom: 2px solid #0065FC;
+            padding-bottom: 20px;
+            padding-top: 0px;
+            color: #0065FC;
+        }
 
     .form {
         width: 100%;
@@ -686,8 +696,13 @@ h5 {
 
     #lien-filtre {
         justify-content: start;
-        width: 120%;
+        width: 100%;
+        margin-left:20px;
+        margin-bottom:15px;
         /*border:solid yellow;*/
+    }
+    .liens-container{
+       margin-top:17px;
     }
 
     .hebergement-vert {
@@ -714,8 +729,8 @@ h5 {
     }
 
     .populaire-jaune {
-        height: auto;
-        /*border:solid yellow;*/
+        flex-direction: column;
+        border: solid yellow;
     }
 
     .populaire-rouge {
