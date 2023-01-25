@@ -512,6 +512,15 @@ h5 {
 /* sur les ecrans de 992px ou moins (tablette)*/
 
 @media screen and (max-width: 992px) {
+    nav{
+        justify-content:start;
+        margin:0 0 0 0;
+        gap:30%;
+    }
+    .filtre {
+        width: 100%;
+    }
+
     #lien-filtre {
         justify-content: start;
         width: 20%;
@@ -581,11 +590,6 @@ h5 {
         width: 100%;
         /*border:solid blue;*/
     }
-
-    body {
-        width: 85%;
-        padding: 2%;
-    }
 }
 
 
@@ -603,7 +607,7 @@ h5 {
 
     h5 {
         margin-top: 13px;
-        margin-bottom:36px;
+        margin-bottom: 36px;
     }
 
     #next {
@@ -627,7 +631,7 @@ h5 {
     .groupe-lien {
         width: 100%;
         margin-bottom: 10px;
-        gap:14px;
+        gap: 14px;
         /*border:solid orange;*/
     }
 
@@ -697,12 +701,13 @@ h5 {
     #lien-filtre {
         justify-content: start;
         width: 100%;
-        margin-left:20px;
-        margin-bottom:15px;
+        margin-left: 20px;
+        margin-bottom: 15px;
         /*border:solid yellow;*/
     }
-    .liens-container{
-       margin-top:17px;
+
+    .liens-container {
+        margin-top: 17px;
     }
 
     .hebergement-vert {
