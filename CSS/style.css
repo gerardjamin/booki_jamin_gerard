@@ -670,12 +670,13 @@ h2 {
     h5 {
         margin-top: 3px;
         margin-bottom: 36px;
-        width: 100%; /*ici*/
+        padding-right:5px;
+        width: 100%; 
         text-align: start;
     }
 
-    .fa-info {
-        margin-top: 3px; /*ici*/
+    .fa-circle-info {
+        margin-top: 5px; 
     }
 
     #next {
