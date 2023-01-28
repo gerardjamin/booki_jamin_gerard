@@ -288,7 +288,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     border-radius: 15px;
     width: 32%;
     gap: 20px;
@@ -302,8 +302,8 @@ input {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 2.5%;
-    gap: 30px;
+    /*margin: 2.5%;*/
+    gap: 18px;
     /*border: solid yellow;*/
 }
 
@@ -611,6 +611,7 @@ h2 {
         width: 100%;
         margin-top: 25px;
         height: auto;
+        justify-content:space-around;
         /*background-color:gold;*/
     }
 
@@ -619,6 +620,7 @@ h2 {
         width: 100%;
         margin-top: 0px;
         justify-content: space-around;
+        gap:30px;
         /*background-color:brown;*/
     }
 
@@ -807,6 +809,8 @@ h2 {
     .populaire-jaune {
         flex-direction: column;
         align-items: center;
+        gap: 30px;
+        margin: 2.5%;
         /*border: solid yellow;*/
     }
 
