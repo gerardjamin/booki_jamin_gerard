@@ -769,6 +769,7 @@ h2 {
     }
 
     .populaire-jaune {
+        flex-direction:column;
         align-items: center;
         gap: 30px;
         margin: 2.5%;
