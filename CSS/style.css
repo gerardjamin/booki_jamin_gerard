@@ -1,6 +1,4 @@
-﻿/*toutes les marges de la page sont misent à 0 */
-
-html {
+﻿html {
     /* background: blue; */
 }
 
@@ -133,7 +131,7 @@ nav {
 #lien-filtre {
     display: flex;
     justify-content: center;
-    margin-right: 1%;
+    margin-right: 2px;
     width: 200px;
     height: 48px;
     font-style: normal;
@@ -163,7 +161,7 @@ nav {
     border: 2px solid #E6E6E6;
     border-radius: 20px 20px 20px 20px;
     color: blue;
-    width: 136px;
+    width: 150px;
     height: 48px;
     border: 1px solid #D9D9D9;
     padding-left: 4px;
@@ -557,14 +555,9 @@ h2 {
         gap: 30%;
     }
 
-    .filtre {
-        width: 100%;
-    }
-
     #lien-filtre {
         justify-content: start;
         width: 8%;
-        margin-right: 2px;
         /*border:solid yellow;*/
     }
 
@@ -581,19 +574,13 @@ h2 {
         margin-bottom: 40px;
     }
 
-    .liens-container {
-        /*width: 50%;*/
-    }
-
     .groupe-lien {
-        width: 90%;
         margin-bottom: 10px;
         /*border:solid orange;*/
     }
 
     .hebergement-vert {
         flex-direction: column;
-        width: 100%;
     }
 
     .hebergement-bleu {
@@ -603,7 +590,6 @@ h2 {
 
     .hebergement-jaune {
         margin-bottom: 10px;
-        width: 100%;
         /*background-color:blueviolet;*/
     }
 
@@ -617,7 +603,6 @@ h2 {
 
     .populaire-jaune {
         flex-direction: row;
-        width: 100%;
         margin-top: 0px;
         justify-content: space-around;
         gap: 30px;
@@ -642,19 +627,7 @@ h2 {
     }
 
     #next a {
-        /*font-family: 'Raleway';*/
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
         margin-left: 20px;
-    }
-
-    footer {
-        justify-content: space-around;
-        background-color: #E6E6E6;
-        margin-top: 40px;
-        width: 100%;
-        /*border:solid blue;*/
     }
 }
 
@@ -683,22 +656,13 @@ h2 {
         display: none;
     }
 
-    .Img-hebergement {
-        border-radius: 15px 15px 0px 0px;
-    }
-
     .titre-activites {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
         padding-right: 160px;
         margin-left: 0px;
         margin-top: 60px;
     }
 
     .card-container {
-        /*ici*/
         padding-left: 10px;
     }
 
@@ -741,7 +705,6 @@ h2 {
             border-bottom: 2px solid #0065FC;
             padding-bottom: 20px;
             padding-top: 0px;
-            color: #0065FC;
         }
 
     .form {
@@ -785,14 +748,11 @@ h2 {
 
     .hebergement-vert {
         flex-direction: column-reverse;
-        width: 100%;
         /*border:solid brown;*/
     }
 
     .hebergement-jaune {
-        display: flex;
         flex-direction: column;
-        width: 100%;
         height: auto;
         /*border: solid yellow;*/
     }
@@ -809,7 +769,6 @@ h2 {
     }
 
     .populaire-jaune {
-        flex-direction: column;
         align-items: center;
         gap: 30px;
         margin: 2.5%;
@@ -823,10 +782,6 @@ h2 {
         /*border: solid red;*/
     }
 
-    .card-populaire {
-        width: 90%;
-        /*border:solid blue;*/
-    }
 
     .activite {
         justify-content: center;
@@ -836,7 +791,6 @@ h2 {
 
     .images-activite {
         flex-direction: column;
-        width: 100%;
         /*border: solid purple;*/
     }
 
