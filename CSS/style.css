@@ -611,7 +611,7 @@ h2 {
         width: 100%;
         margin-top: 25px;
         height: auto;
-        justify-content:space-around;
+        justify-content: space-around;
         /*background-color:gold;*/
     }
 
@@ -620,7 +620,7 @@ h2 {
         width: 100%;
         margin-top: 0px;
         justify-content: space-around;
-        gap:30px;
+        gap: 30px;
         /*background-color:brown;*/
     }
 
@@ -670,13 +670,13 @@ h2 {
     h5 {
         margin-top: 3px;
         margin-bottom: 36px;
-        padding-right:5px;
-        width: 100%; 
+        padding-right: 5px;
+        width: 100%;
         text-align: start;
     }
 
     .fa-circle-info {
-        margin-top: 5px; 
+        margin-top: 5px;
     }
 
     #next {
@@ -713,6 +713,7 @@ h2 {
         width: 100%;
         font-size: 11px;
         line-height: 13px;
+        width: 43%;
         justify-content: start;
     }
 
