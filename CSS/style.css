@@ -629,7 +629,7 @@ h1 {
 @media screen and (max-width: 767px) {
 
     body {
-        margin: 10px;
+       width:92%;
     }
 
     h5 {
