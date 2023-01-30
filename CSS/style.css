@@ -1,7 +1,4 @@
-﻿html {
-     background: blue; 
-}
-
+﻿
 body {
     box-sizing: border-box;
     font-family: 'raleway', sans-serif;
@@ -13,7 +10,6 @@ body {
 }
 
 #header {
-    /*margin: auto;*/
     width: 95%;
 }
 
@@ -418,6 +414,9 @@ footer {
     /*border:solid blue;*/
 }
 
+footer a {
+    color:black;
+}
 
 
 .propos {
@@ -485,14 +484,6 @@ footer {
         /*border:solid yellow;*/
     }
 
-
-/*declaration de variables personnalisées dans la pseudo classe root
-
-:root{
-    --variable:blue;
-}
-*/
-
 .fa-solid,
 .fas {
     font-weight: 900;
@@ -525,7 +516,7 @@ h5 {
     margin-top: 0px;
 }
 
-h2 {
+h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -609,8 +600,9 @@ h2 {
         /*background-color:brown;*/
     }
 
-    .card-container #bleu {
+    .card-container {
         margin-bottom: 32px;
+        color:black;
     }
 
     .card-populaire {
