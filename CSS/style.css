@@ -316,7 +316,6 @@ input {
     border-radius: 15px;
     width: 32%;
     /*gap: 20px;*/
-    overflow: hidden;
     height: 590px;
     background: #F2F2F2;
 }
@@ -377,7 +376,7 @@ input {
 .Img-hebergement {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    width: 94%;
+    width: 97%;
     height: 111px;
     border: solid 5px white;
 }
