@@ -315,7 +315,6 @@ input {
     align-items: center;
     border-radius: 15px;
     width: 32%;
-    /*gap: 20px;*/
     height: 590px;
     background: #F2F2F2;
 }
@@ -324,7 +323,6 @@ input {
     display: flex;
     flex-direction: column;
     width: 94%;
-    /*gap: 18px;*/
 }
 
 #next a {
@@ -506,7 +504,7 @@ footer {
 }
 
 .fa-info {
-    /*margin-top: 25px;*/
+   
 }
 
 .fa-star {
