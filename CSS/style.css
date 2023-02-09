@@ -180,6 +180,7 @@ nav {
     font-size: 17px;
     line-height: 20px;
     margin-right: 10px;
+    width:30%;
 }
 
 .lien4 {
@@ -647,7 +648,7 @@ i.fa-solid.fa-info.fa-blue {
     }
 
     .lien1 {
-        display: flex;
+       /* display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -661,10 +662,11 @@ i.fa-solid.fa-info.fa-blue {
         font-weight: 700;
         font-size: 17px;
         line-height: 20px;
-        margin-right: 10px;
+        margin-right: 10px;*/
+       
     }
 
-    .lien2 {
+   /* .lien2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -680,9 +682,9 @@ i.fa-solid.fa-info.fa-blue {
         font-size: 17px;
         line-height: 20px;
         margin-right: 10px;
-    }
+    }*/
 
-    .lien3 {
+   /* .lien3 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -698,7 +700,7 @@ i.fa-solid.fa-info.fa-blue {
         font-size: 17px;
         line-height: 20px;
         margin-right: 10px;
-    }
+    }*/
 
     .lien4 {
         display: flex;
@@ -715,7 +717,7 @@ i.fa-solid.fa-info.fa-blue {
         font-weight: 700;
         font-size: 17px;
         line-height: 20px;
-        width: 177px;
+        width: 184px;
     }
 
     .liens-container {
@@ -865,22 +867,8 @@ i.fa-solid.fa-info.fa-blue {
         margin-top: 5px;
     }
 
-    .lien1 {
+    .lien1,.lien2,.lien3,.lien4 {
         width: 30%;
-    }
-
-    .lien2 {
-        width: 30%;
-    }
-
-    .lien3 {
-        width: 30%;
-        ;
-    }
-
-    .lien4 {
-        width: 30%;
-        ;
     }
 
     #next {
