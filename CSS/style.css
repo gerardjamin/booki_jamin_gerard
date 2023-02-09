@@ -82,7 +82,6 @@ h1 {
 #info {
     display: flex;
     flex-direction: row;
-    /*gap: 25px;*/
     font-weight: 400;
     width: 100%;
 }
@@ -96,15 +95,7 @@ h1 {
     width: 100%;
 }
 
-/*
-p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 12px;
-    margin-top: 5px;
-}*/
+
 
 
 /*partie navigation*/
@@ -173,22 +164,13 @@ nav {
     margin-left: 10px;
 }
 
-/*.groupe-lien {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    gap: 30px;
-}*/
-
 .lien1, .lien2, .lien3 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /*border: 2px solid #E6E6E6;*/
     border-radius: 20px 20px 20px 20px;
     color: blue;
-    /* width: auto;*/
     height: 48px;
     border: 1px solid #D9D9D9;
     padding-left: 21px;
@@ -198,50 +180,7 @@ nav {
     font-size: 17px;
     line-height: 20px;
     margin-right: 10px;
-    /* width:107px;*/
 }
-
-/*.lien2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;*/
-/*border: 2px solid #E6E6E6;*/
-/*border-radius: 20px 20px 20px 20px;
-    color: blue;*/
-/* width: auto;*/
-/*height: 48px;
-    border: 1px solid #D9D9D9;
-    padding-left: 21px;
-    padding-right: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
-    margin-right: 10px;*/
-/* width:107px;*/
-/*}
-
-.lien3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;*/
-/*border: 2px solid #E6E6E6;*/
-/*border-radius: 20px 20px 20px 20px;
-    color: blue;*/
-/* width: auto;*/
-/*height: 48px;
-    border: 1px solid #D9D9D9;
-    padding-left: 21px;
-    padding-right: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
-    margin-right: 10px;*/
-/* width:107px;*/
-/*}*/
 
 .lien4 {
     display: flex;
@@ -262,15 +201,6 @@ nav {
     line-height: 20px;
     width: 182px;
 }
-
-    /*.lien-dog {
-    width: 178px;
-}*/
-
-    /*.lien:hover,
-.lien-dog:hover {
-    background-color: #DEEBFF;
-}*/
 
     .lien1:hover, .lien2:hover, .lien3:hover, .lien4:hover {
         background-color: #DEEBFF;
@@ -324,9 +254,6 @@ input {
     margin-top: 8px;
     padding-bottom: 10px;
 }
-
-
-
 
 .fa-chart-line {
     padding-right: 20px;
@@ -519,15 +446,6 @@ input {
     background-color: white;
 }
 
-
-/*.card-hebergement:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-}
-
-.card-populaire:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-}*/
-
 .Img-hebergement {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -717,20 +635,11 @@ i.fa-solid.fa-info.fa-blue {
 
     .filtre {
         margin-bottom: 0px;
-        width:100%;
+        width: 100%;
     }
 
-    /* .lien {
-        width: 60%;
-    }*/
-
     .populaire-jaune .card-populaire .card-container .nom {
-        /* font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;*/
         margin: 13px 14px 11px -6px;
-        /* color: black;*/
     }
 
     .populaire-jaune .card-populaire .card-container .prix {
@@ -742,10 +651,8 @@ i.fa-solid.fa-info.fa-blue {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        /*border: 2px solid #E6E6E6;*/
         border-radius: 20px 20px 20px 20px;
         color: blue;
-        /* width: auto;*/
         height: 48px;
         border: 1px solid #D9D9D9;
         padding-left: 21px;
@@ -755,7 +662,6 @@ i.fa-solid.fa-info.fa-blue {
         font-size: 17px;
         line-height: 20px;
         margin-right: 10px;
-        /* width:107px;*/
     }
 
     .lien2 {
@@ -763,10 +669,8 @@ i.fa-solid.fa-info.fa-blue {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        /*border: 2px solid #E6E6E6;*/
         border-radius: 20px 20px 20px 20px;
         color: blue;
-        /* width: auto;*/
         height: 48px;
         border: 1px solid #D9D9D9;
         padding-left: 21px;
@@ -776,7 +680,6 @@ i.fa-solid.fa-info.fa-blue {
         font-size: 17px;
         line-height: 20px;
         margin-right: 10px;
-        /* width:107px;*/
     }
 
     .lien3 {
@@ -784,10 +687,8 @@ i.fa-solid.fa-info.fa-blue {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        /*border: 2px solid #E6E6E6;*/
         border-radius: 20px 20px 20px 20px;
         color: blue;
-        /* width: auto;*/
         height: 48px;
         border: 1px solid #D9D9D9;
         padding-left: 21px;
@@ -797,7 +698,6 @@ i.fa-solid.fa-info.fa-blue {
         font-size: 17px;
         line-height: 20px;
         margin-right: 10px;
-        /* width:107px;*/
     }
 
     .lien4 {
@@ -805,10 +705,8 @@ i.fa-solid.fa-info.fa-blue {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        /*border: 2px solid #E6E6E6;*/
         border-radius: 20px 20px 20px 20px;
         color: blue;
-        /* width: auto;*/
         height: 48px;
         border: 1px solid #D9D9D9;
         padding-left: 21px;
@@ -822,7 +720,7 @@ i.fa-solid.fa-info.fa-blue {
 
     .liens-container {
         margin-left: 20px;
-        width:40%;
+        width: 40%;
     }
 
     .groupe-lien {
@@ -867,11 +765,6 @@ i.fa-solid.fa-info.fa-blue {
     }
 
     .main a {
-        /* text-decoration: none;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;*/
         margin-top: 10px;
         width: 35%;
     }
@@ -918,33 +811,13 @@ i.fa-solid.fa-info.fa-blue {
         display: flex;
         flex-direction: row;
         margin-top: 1px;
-        /* margin: 18px 18px 0px 2px;*/
     }
 
     .populaire-jaune .card-populaire .card-container .star-populaire-eau {
         display: flex;
         flex-direction: row;
-        /* margin: 0px 18px 0px 2px;*/
         margin-top: 4px;
     }
-
-    /*.populaire-jaune .card-populaire .card-container .star-populaire-blanc {
-        display: flex;
-        flex-direction: row;
-        margin: 26px 18px 0px 2px;
-    }*/
-
-    /*.star-populaire {
-        margin-top: 35px;
-    }
-
-    .star-populaire-eau {
-        margin-top: 30px;
-    }
-
-    .star-populaire-blanc {
-        margin-top: 52px;
-    }*/
 
     .images-activite .card-activite img {
         height: 227px;
@@ -980,16 +853,34 @@ i.fa-solid.fa-info.fa-blue {
         text-align: start;
         margin-top: 10px;
         margin-bottom: 5px;
-        margin-left:60px;
+        margin-left: 60px;
     }
 
     h1 {
         margin-top: 22px;
-        text-align:center;
+        text-align: center;
     }
 
     .fa-circle-info {
         margin-top: 5px;
+    }
+
+    .lien1 {
+        width: auto;
+    }
+
+    .lien2 {
+        width: auto;
+    }
+
+    .lien3 {
+        width: auto;
+        ;
+    }
+
+    .lien4 {
+        width: auto;
+        ;
     }
 
     #next {
@@ -1013,24 +904,11 @@ i.fa-solid.fa-info.fa-blue {
         width: 100%;
     }
 
-    /* .groupe-lien {
-        width: 100%;
-        margin-bottom: 10px;
-        gap: 14px;
-    }*/
-
-    /*.lien {
-        width: 100%;
-        font-size: 11px;
-        line-height: 13px;
-        width: 43%;
-        justify-content: start;
-        padding-left: 10px;
-    }*/
-
     .liens-container {
+        justify-content: center;
         gap: 20px;
         margin-left: 10px;
+        width: 100%;
     }
 
     .lien4 {
@@ -1039,9 +917,6 @@ i.fa-solid.fa-info.fa-blue {
 
     nav {
         flex-direction: column;
-        /* justify-content: space-around;
-        width: 100%;
-        gap: 28px;*/
     }
 
     #header {
@@ -1068,12 +943,6 @@ i.fa-solid.fa-info.fa-blue {
                 border-bottom: 2px solid #0065FC;
                 padding-bottom: 18px;
             }
-
-    /*  .form {
-        width: 100%;
-        justify-content: space-between;
-        padding-left: 10px;
-    }*/
 
     .rechercher {
         align-items: center;
@@ -1102,26 +971,6 @@ i.fa-solid.fa-info.fa-blue {
         gap: 20px;
     }
 
-    /* .fa-sharp.fa-solid.fa-dog.fa-lg {
-        margin-right: 8px;
-    }
-
-    .fa-solid.fa-person.fa-lg {
-        margin-right: 8px;
-    }
-
-    .fa-solid.fa-heart.fa-lg {
-        margin-right: 8px;
-    }
-
-    .fa-solid.fa-sack-dollar.fa-lg {
-        margin-right: 8px;
-    }
-
-    .lien-dog {
-        padding-left: 10px;
-    }*/
-
     #lien-filtre {
         justify-content: start;
         width: 100%;
@@ -1134,10 +983,6 @@ i.fa-solid.fa-info.fa-blue {
     #info {
         margin-bottom: 20px;
     }
-
-    /* .titre {
-        margin-left: 2px;
-    }*/
 
     .hebergement-vert {
         flex-direction: column-reverse;
@@ -1190,19 +1035,6 @@ i.fa-solid.fa-info.fa-blue {
         margin-left: 15px;
     }
 
-    /* .card-populaire-eau {
-        width: 100%;
-    }*/
-
-    /* .card-populaire-bleu {
-        width: 100%;
-    }*/
-
-    /* .activite {
-        justify-content: center;
-        align-items: center;
-    }*/
-
     .images-activite {
         flex-direction: column;
         width: 100%;
@@ -1223,10 +1055,6 @@ i.fa-solid.fa-info.fa-blue {
         height: 136px;
         width: 95%;
     }
-
-    /* .star-populaire-blanc {
-        margin-top: 52px;
-    }*/
 
     footer {
         flex-direction: column;
