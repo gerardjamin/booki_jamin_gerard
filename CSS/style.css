@@ -11,10 +11,9 @@ body, html {
     background-color: white;
 }
 
-/*#header {
-    width: 90%;
-    margin: 5px;
-}*/
+#header {
+    width: 100%;
+}
 
 h5 {
     font-style: normal;
@@ -264,18 +263,18 @@ nav {
     width: 182px;
 }
 
-/*.lien-dog {
+    /*.lien-dog {
     width: 178px;
 }*/
 
-/*.lien:hover,
+    /*.lien:hover,
 .lien-dog:hover {
     background-color: #DEEBFF;
 }*/
 
-.lien1:hover, .lien2:hover, .lien3:hover, .lien4:hover {
-    background-color: #DEEBFF;
-}
+    .lien1:hover, .lien2:hover, .lien3:hover, .lien4:hover {
+        background-color: #DEEBFF;
+    }
 
 /*partie formulaire*/
 
@@ -312,7 +311,7 @@ input {
     margin-left: 18px;
 }
 
-/*.star-populaire {
+.star-populaire {
     display: flex;
     flex-direction: row;
     margin-top: 60px;
@@ -322,9 +321,9 @@ input {
 .star-populaire-eau {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 8px;
     padding-bottom: 10px;
-}*/
+}
 
 
 
@@ -384,7 +383,7 @@ input {
 .populaire-jaune .card-populaire .card-container .star-populaire {
     display: flex;
     flex-direction: row;
-    margin: 6px 18px 0px 2px;
+    margin: 28px 18px 0px 2px;
 }
 
 .populaire-jaune .card-populaire .card-container .star-populaire-blanc {
@@ -543,6 +542,7 @@ input {
     width: 127px;
     height: 131px;
     margin-top: 3px;
+    margin-left: 2px;
     border: solid 2px white;
 }
 
@@ -701,6 +701,7 @@ i.fa-solid.fa-info.fa-blue {
 
     body {
         margin: 5px;
+        width: 100%;
     }
 
     nav {
@@ -716,6 +717,7 @@ i.fa-solid.fa-info.fa-blue {
 
     .filtre {
         margin-bottom: 0px;
+        width:100%;
     }
 
     /* .lien {
@@ -729,6 +731,10 @@ i.fa-solid.fa-info.fa-blue {
         line-height: 19px;*/
         margin: 13px 14px 11px -6px;
         /* color: black;*/
+    }
+
+    .populaire-jaune .card-populaire .card-container .prix {
+        margin: 0px 13px 37px 2px;
     }
 
     .lien1 {
@@ -816,6 +822,7 @@ i.fa-solid.fa-info.fa-blue {
 
     .liens-container {
         margin-left: 20px;
+        width:40%;
     }
 
     .groupe-lien {
@@ -838,6 +845,10 @@ i.fa-solid.fa-info.fa-blue {
 
     .groupe-lien {
         margin-bottom: 10px;
+    }
+
+    .hebergement-rouge {
+        gap: 2px;
     }
 
     .hebergement-vert {
@@ -906,6 +917,7 @@ i.fa-solid.fa-info.fa-blue {
     .populaire-jaune .card-populaire .card-container .star-populaire {
         display: flex;
         flex-direction: row;
+        margin-top: 1px;
         /* margin: 18px 18px 0px 2px;*/
     }
 
@@ -968,10 +980,12 @@ i.fa-solid.fa-info.fa-blue {
         text-align: start;
         margin-top: 10px;
         margin-bottom: 5px;
+        margin-left:60px;
     }
 
     h1 {
         margin-top: 22px;
+        text-align:center;
     }
 
     .fa-circle-info {
