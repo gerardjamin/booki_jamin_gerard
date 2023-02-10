@@ -2,17 +2,14 @@
 
 
 body, html {
-    box-sizing: border-box;
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
     width: 100%;
-    margin: auto;
     padding: 3px;
-    background-color: white;
 }
 
 #header {
-    width: 100%;
+    width: 96%;
 }
 
 h5 {
@@ -92,11 +89,8 @@ h1 {
 }
 
 .main {
-    width: 100%;
+    width: 95%;
 }
-
-
-
 
 /*partie navigation*/
 
@@ -106,6 +100,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 2% 0 2% 0;
+    width: 95%;
 }
 
 .menu {
@@ -180,7 +175,7 @@ nav {
     font-size: 17px;
     line-height: 20px;
     margin-right: 10px;
-    width:30%;
+    width: 30%;
 }
 
 .lien4 {
@@ -345,6 +340,12 @@ input {
     margin-top: 10px;
 }
 
+.activite {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
 
 /*partie cards*/
 
@@ -442,7 +443,6 @@ input {
     justify-content: start;
     width: 98%;
     border-radius: 15px 15px 15px 15px;
-    /*margin: 2%;*/
     margin: 15px 5px 15px 5px;
     background-color: white;
 }
@@ -472,13 +472,6 @@ input {
 
 .card-activite {
     width: 20%;
-}
-
-.activite {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 50px;
 }
 
 .images-activite {
@@ -647,61 +640,6 @@ i.fa-solid.fa-info.fa-blue {
         margin: 0px 13px 37px 2px;
     }
 
-    .lien1 {
-       /* display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 20px 20px 20px 20px;
-        color: blue;
-        height: 48px;
-        border: 1px solid #D9D9D9;
-        padding-left: 21px;
-        padding-right: 20px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 20px;
-        margin-right: 10px;*/
-       
-    }
-
-   /* .lien2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 20px 20px 20px 20px;
-        color: blue;
-        height: 48px;
-        border: 1px solid #D9D9D9;
-        padding-left: 21px;
-        padding-right: 20px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 20px;
-        margin-right: 10px;
-    }*/
-
-   /* .lien3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 20px 20px 20px 20px;
-        color: blue;
-        height: 48px;
-        border: 1px solid #D9D9D9;
-        padding-left: 21px;
-        padding-right: 20px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 20px;
-        margin-right: 10px;
-    }*/
-
     .lien4 {
         display: flex;
         justify-content: center;
@@ -838,11 +776,6 @@ i.fa-solid.fa-info.fa-blue {
 /* sur les ecrans de 767px ou moins (mobile)*/
 
 @media screen and (max-width: 767px) {
-    html {
-        margin-right: 8%;
-        margin-top: 8%;
-        padding-left: 15px;
-    }
 
     body {
         width: 93%;
@@ -867,7 +800,7 @@ i.fa-solid.fa-info.fa-blue {
         margin-top: 5px;
     }
 
-    .lien1,.lien2,.lien3,.lien4 {
+    .lien1, .lien2, .lien3, .lien4 {
         width: 30%;
     }
 
@@ -912,7 +845,7 @@ i.fa-solid.fa-info.fa-blue {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 96%;
     }
 
     .menu {
@@ -984,7 +917,6 @@ i.fa-solid.fa-info.fa-blue {
     }
 
     .hebergement-bleu {
-        width: 100%;
         margin-top: 25px;
         height: auto;
         padding-bottom: 0px;
@@ -1008,9 +940,7 @@ i.fa-solid.fa-info.fa-blue {
 
     .populaire-rouge {
         justify-content: center;
-        width: 100%;
         height: auto;
-        margin-left: 8px;
     }
 
     .Img-populaire {
@@ -1041,7 +971,7 @@ i.fa-solid.fa-info.fa-blue {
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
         height: 136px;
-        width: 95%;
+        width: 90%;
     }
 
     footer {
