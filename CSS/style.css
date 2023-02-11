@@ -1,10 +1,11 @@
 ﻿
 
 
-body, html {
+body {
+    box-sizing:content-box;
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
-    width: 100%;
+    width: 97%;
     padding: 3px;
 }
 
@@ -71,9 +72,9 @@ h1 {
 .filtre {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+   /* justify-content: start;*/
     margin-bottom: 10px;
-    width: 50%;
+    width: 90%;
 }
 
 #info {
@@ -129,14 +130,29 @@ nav {
             padding-top: 18px;
         }
 
-.liens-container {
+.liens-container-droit {
     display: flex;
     flex-direction: row;
     margin-left: 29px;
     gap: 30px;
+   /* width:30%;*/
 }
 
-    .liens-container a {
+    .liens-container-droit a {
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+    }
+
+.liens-container-gauche {
+    display: flex;
+    flex-direction: row;
+    margin-left: 29px;
+    gap: 30px;
+   /* width: 30%;*/
+}
+
+    .liens-container-gauche a {
         text-decoration: none;
         color: black;
         margin-left: 5px;
@@ -232,9 +248,9 @@ input {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    margin-top: 36px;
-    margin-bottom: 7px;
-    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 3px;
 }
 
 .star-populaire {
@@ -338,12 +354,13 @@ input {
     font-size: 16px;
     line-height: 19px;
     margin-top: 10px;
+   /* height:144px;*/
 }
 
 .activite {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
 }
 
@@ -361,7 +378,7 @@ input {
 .hebergement-bleu {
     display: flex;
     flex-direction: column;
-    width: 67%;
+    width: 65%;
     height: 650px;
     border-radius: 15px;
     background: #F2F2F2;
@@ -396,7 +413,7 @@ input {
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
-    width: 32%;
+    width: 30%;
     height: 650px;
     background: #F2F2F2;
 }
@@ -405,6 +422,8 @@ input {
     display: flex;
     flex-direction: column;
     width: 94%;
+   /* height:650px;
+    gap:30px;*/
 }
 
 #next {
@@ -440,8 +459,9 @@ input {
 .card-populaire {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     width: 98%;
+    /*height:144px;*/
     border-radius: 15px 15px 15px 15px;
     margin: 15px 5px 15px 5px;
     background-color: white;
@@ -485,7 +505,8 @@ input {
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
         width: 100%;
-        height: 388px;
+        height: 302px;
+        margin-bottom:12px;
     }
 
 
@@ -496,7 +517,7 @@ input {
 footer {
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 90%;
     padding-bottom: 10px;
     background-color: #E6E6E6;
     justify-content: space-around;
@@ -587,13 +608,12 @@ footer {
 }
 
 i.fa-solid.fa-info.fa-blue {
-    width: 28px;
-    height: 15px;
-    border: solid 1px #D9D9D9;
+    width: 25px;
+    height: 14px;
+    border: #F2F2F2 solid 2px;
     text-align: center;
-    padding-top: 13px;
-    border-radius: 15px 17px 15px 14px;
-    margin-right: 12px;
+    padding-top: 10px;
+    border-radius: 50%;
 }
 
 #loca-icone {
@@ -658,10 +678,10 @@ i.fa-solid.fa-info.fa-blue {
         width: 184px;
     }
 
-    .liens-container {
+   /* .liens-container {
         margin-left: 20px;
         width: 40%;
-    }
+    }*/
 
     .groupe-lien {
         width: 55%;
