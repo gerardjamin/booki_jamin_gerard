@@ -2,7 +2,7 @@
 
 
 body {
-    box-sizing:content-box;
+    box-sizing: content-box;
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
     width: 97%;
@@ -274,29 +274,6 @@ input {
     color: black;
 }
 
-.hebergement-jaune .card-hebergement .card-container .nom {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    margin: 0px 18px 5px 2px;
-}
-
-.hebergement-jaune .card-hebergement .card-container .prix {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0px 18px 5px 2px;
-}
-
-.hebergement-jaune .card-hebergement .card-container .star-logement {
-    display: flex;
-    flex-direction: row;
-    margin: 8px 18px 0px 2px;
-}
-
 .populaire-jaune .card-populaire .card-container .nom {
     font-style: normal;
     font-weight: 700;
@@ -353,13 +330,6 @@ input {
     margin-top: 10px;
 }
 
-.activite {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    margin-top: 50px;
-}
-
 /*partie cards*/
 
 .hebergement-vert {
@@ -396,12 +366,61 @@ input {
     width: 100%;
 }
 
-.icone-populaire {
+.card-hebergement {
+    width: 30%;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.Img-hebergement {
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    width: 96%;
+    height: 111px;
+    border: solid 5px white;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    margin-left: 14px;
+    color: black;
+}
+
+.hebergement-jaune .card-hebergement .card-container .nom {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 18px 5px 2px;
+}
+
+.hebergement-jaune .card-hebergement .card-container .prix {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 18px 5px 2px;
+}
+
+.hebergement-jaune .card-hebergement .card-container .star-logement {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    margin: 8px 18px 0px 2px;
+}
+
+#next a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 24px;
 }
 
 .populaire-rouge {
@@ -414,40 +433,18 @@ input {
     background: #F2F2F2;
 }
 
+.icone-populaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .populaire-jaune {
     display: flex;
     flex-direction: column;
     width: 94%;
-}
-
-#next {
-    margin-top: 0px;
-}
-
-    #next a {
-        text-decoration: none;
-        color: black;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 21px;
-        margin-left: 24px;
-    }
-
-.card-container {
-    display: flex;
-    flex-direction: column;
-    font-weight: normal;
-    margin-left: 14px;
-    color: black;
-}
-
-.card-hebergement {
-    width: 30%;
-    height: 200px;
-    margin-bottom: 30px;
-    border-radius: 15px 15px 15px 15px;
-    background-color: white;
 }
 
 .card-populaire {
@@ -460,14 +457,6 @@ input {
     background-color: white;
 }
 
-.Img-hebergement {
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-    width: 96%;
-    height: 111px;
-    border: solid 5px white;
-}
-
 .Img-populaire {
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
@@ -478,13 +467,11 @@ input {
     border: solid 2px white;
 }
 
-.populaires {
-    width: 420px;
-    height: 625px;
-}
-
-.card-activite {
-    width: 20%;
+.activite {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 50px;
 }
 
 .images-activite {
@@ -499,11 +486,12 @@ input {
         border-radius: 15px 15px 0px 0px;
         width: 100%;
         height: 302px;
-        margin-bottom:12px;
+        margin-bottom: 12px;
     }
 
-
-
+.card-activite {
+    width: 20%;
+}
 
 /*partie footer*/
 
@@ -538,25 +526,6 @@ footer {
         line-height: 19px;
         margin-top: 10px;
     }
-
-
-.hebergement {
-    display: flex;
-    flex-direction: column;
-    align-content: start;
-    width: 20%;
-}
-
-    .hebergement a {
-        text-decoration: none;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        margin-top: 10px;
-    }
-
-
 
 .assistance {
     display: flex;
