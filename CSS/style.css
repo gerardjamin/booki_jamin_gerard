@@ -122,6 +122,8 @@ input {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
+    align-content:center;
+    width:100%;
 }
 
 #info {
@@ -136,6 +138,7 @@ input {
     flex-direction: row;
     margin-left: 29px;
     gap: 40px;
+    width:40%;
 }
 
     .liens-container a {
@@ -148,6 +151,7 @@ input {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    width:5%;
     color: #000000;
 }
 
@@ -664,6 +668,21 @@ i.fa-solid.fa-location-dot.fa-lg {
     nav {
         flex-direction: column;
     }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        padding-bottom: 20px;
+        width: 120px;
+    }
+
+        .menu a:hover {
+            border-top:none;
+            border-bottom: 2px solid #0065FC;
+            font-weight: 500;
+            color: #0065FC;
+            padding-bottom: 18px;
+        }
 
     h1 {
         margin-top: 22px;
