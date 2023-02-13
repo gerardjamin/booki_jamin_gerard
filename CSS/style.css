@@ -13,87 +13,7 @@ body {
     width: 96%;
 }
 
-h5 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: start;
-    margin-top: 10px;
-}
-
-h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    margin-top: 50px;
-}
-
-#fname {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-    width: 55%;
-    border-top: solid 1px #F2F2F2;
-    border-bottom: solid 1px #F2F2F2;
-}
-
-.rechercher {
-    display: flex;
-    align-items: baseline;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    gap: 15px;
-    width: 100%
-}
-
-#recherche {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    background-color: #0065FC;
-    color: white;
-    border-radius: 0px 15px 15px 0px;
-    width: 132px;
-}
-
-#recherche-loupe {
-    display: none;
-}
-
-
-/*partie filtre*/
-
-.filtre {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    width: 90%;
-}
-
-#info {
-    display: flex;
-    flex-direction: row;
-    font-weight: 400;
-    width: 100%;
-}
-
-.fa-info {
-    height: 27px;
-    margin-top: 0px;
-}
-
-.main {
-    width: 95%;
-}
-
 /*partie navigation*/
-
 nav {
     display: flex;
     flex-direction: row;
@@ -129,6 +49,88 @@ nav {
             padding-top: 18px;
         }
 
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 50px;
+}
+
+h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 10px;
+}
+
+
+/*partie recherche*/
+#fname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    width: 55%;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+}
+
+.rechercher {
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 15px;
+    width: 100%
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+    height: 50px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+#recherche {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    width: 132px;
+}
+
+#recherche-loupe {
+    display: none;
+}
+
+/*partie filtre*/
+.filtre {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    width: 100%;
+}
+
 .liens-container-droit {
     display: flex;
     flex-direction: row;
@@ -156,19 +158,12 @@ nav {
     }
 
 #lien-filtre {
-    display: flex;
-    justify-content: center;
-    margin-right: 2px;
-    width: 200px;
-    height: 48px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    text-align: left;
     color: #000000;
     margin-right: 12px;
-    width: 5%;
     margin-left: 10px;
 }
 
@@ -215,122 +210,18 @@ nav {
         background-color: #DEEBFF;
     }
 
-/*partie formulaire*/
-
-.form {
-    display: flex;
-    flex-direction: row;
-    width: 440px;
-    height: 50px;
+.main {
+    width: 95%;
 }
 
-i.fa-solid.fa-location-dot.fa-lg {
-    font-weight: 900;
-    width: 50px;
-    text-align: center;
-    background: #f2f2f2;
-    border-radius: 15px 0px 0px 15px;
-    border: solid 1px #f2f2f2;
-    padding-top: 22px;
-}
-
-input {
-    border: none;
-    outline: none;
-}
-
-.titre,
-.titre-activites {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    margin-top: 30px;
-    margin-bottom: 16px;
-    margin-left: 3px;
-}
-
-.star-populaire {
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-    padding-bottom: 10px;
-}
-
-.star-populaire-eau {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8px;
-    padding-bottom: 10px;
-}
-
-.fa-chart-line {
-    padding-right: 20px;
-    margin-top: 30px;
-}
-
-.euro {
-    font-weight: bold;
-    color: black;
-}
-
-.populaire-jaune .card-populaire .card-container .nom {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    margin: 13px 18px 5px 2px;
-    color: black;
-}
-
-.populaire-jaune .card-populaire .card-container .prix {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0px 18px 37px 2px;
-    color: black;
-}
-
-.populaire-jaune .card-populaire .card-container .star-populaire {
-    display: flex;
-    flex-direction: row;
-    margin: 28px 18px 0px 2px;
-}
-
-.populaire-jaune .card-populaire .card-container .star-populaire-blanc {
-    display: flex;
-    flex-direction: row;
-    margin: 26px 18px 0px 2px;
-}
-
-.nom-footer {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-}
-
-.activite .images-activite .card-activite .nom {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    margin: 0px 0px 5px 12px;
-    color: black;
-}
-
-.main a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top: 10px;
-}
-
-/*partie cards*/
+    .main a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
 
 .hebergement-vert {
     display: flex;
@@ -433,6 +324,17 @@ input {
     background: #F2F2F2;
 }
 
+.titre,
+.titre-activites {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 3px;
+}
+
 .icone-populaire {
     display: flex;
     flex-direction: row;
@@ -447,7 +349,7 @@ input {
     width: 94%;
 }
 
-.card-populaire {
+.card-populaire-desktop {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -465,6 +367,49 @@ input {
     margin-top: 3px;
     margin-left: 2px;
     border: solid 2px white;
+}
+
+.populaire-jaune .card-populaire .card-container .nom {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+   /* margin: 13px 18px 5px 2px;*/
+    margin:0px;
+    color: black;
+}
+
+.populaire-jaune .card-populaire .card-container .prix {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 18px 37px 2px;
+    color: black;
+}
+
+.euro {
+    font-weight: bold;
+    color: black;
+}
+
+.populaire-jaune .card-populaire .card-container .star-populaire {
+    display: flex;
+    flex-direction: row;
+    margin: 28px 18px 0px 2px;
+}
+
+.populaire-jaune .card-populaire .card-container .star-populaire-eau {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 18px 0px 2px;
+}
+
+.populaire-jaune .card-populaire .card-container .star-populaire-blanc {
+    display: flex;
+    flex-direction: row;
+    margin: 26px 18px 0px 2px;
 }
 
 .activite {
@@ -493,8 +438,16 @@ input {
     width: 20%;
 }
 
-/*partie footer*/
+.activite .images-activite .card-activite .nom {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 0px 5px 12px;
+    color: black;
+}
 
+/*partie footer*/
 footer {
     display: flex;
     flex-direction: row;
@@ -510,6 +463,12 @@ footer {
         color: black;
     }
 
+.nom-footer {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
 
 .propos {
     display: flex;
@@ -543,15 +502,38 @@ footer {
         margin-top: 10px;
     }
 
-/*partie icones*/
-
-.fa-solid,
-.fas {
-    font-weight: 900;
-    width: 1px;
-    margin-right: 15px;
+.hebergement {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    width: 20%;
 }
 
+    .hebergement a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+
+/*partie icones*/
+.fa-chart-line {
+    padding-right: 20px;
+    margin-top: 20px;
+    color: #0065FC;
+}
+
+i.fa-solid.fa-location-dot.fa-lg {
+    font-weight: 900;
+    width: 50px;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    border: solid 1px #f2f2f2;
+    padding-top: 22px;
+}
 
 .fa-star {
     color: blue;
@@ -561,23 +543,6 @@ footer {
     color: #F2F2F2;
 }
 
-.fa-blue {
-    color: #0065FC;
-}
-
-.fa-white {
-    color: white;
-}
-
-i.fa-solid.fa-info.fa-blue {
-    width: 25px;
-    height: 14px;
-    border: #F2F2F2 solid 2px;
-    text-align: center;
-    padding-top: 10px;
-    border-radius: 50%;
-}
-
 #loca-icone {
     border: none;
     border-radius: 10px 0px 0px 10px;
@@ -585,7 +550,15 @@ i.fa-solid.fa-info.fa-blue {
 }
 
 .fa-info {
+    width: 25px;
+    height: 14px;
+    border: #F2F2F2 solid 2px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
     margin-top: 3px;
+    margin-right: 15px;
+    color: #0065FC;
 }
 
 
