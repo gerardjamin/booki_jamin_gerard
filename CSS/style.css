@@ -7,6 +7,7 @@ body {
     max-width: 1400px;
     width: 97%;
     padding: 3px;
+    margin: auto;
 }
 
 #header {
@@ -92,7 +93,7 @@ h5 {
     flex-direction: row;
     width: 440px;
     height: 50px;
-    margin-left:2px;
+    margin-left: 2px;
 }
 
 input {
@@ -122,8 +123,8 @@ input {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    align-content:center;
-    width:100%;
+    align-content: center;
+    width: 100%;
 }
 
 #info {
@@ -138,7 +139,7 @@ input {
     flex-direction: row;
     margin-left: 29px;
     gap: 40px;
-    width:40%;
+    width: 40%;
 }
 
     .liens-container a {
@@ -151,11 +152,11 @@ input {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    width:5%;
+    width: 5%;
     color: #000000;
 }
 
-.lien1, .lien2, .lien3,.lien4 {
+.lien1, .lien2, .lien3, .lien4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,8 +171,9 @@ input {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    width: 190px;;
+    width: 190px;
 }
+
     .lien1:hover, .lien2:hover, .lien3:hover, .lien4:hover {
         background-color: #DEEBFF;
     }
@@ -214,7 +216,7 @@ input {
     margin: 2.5%;
     width: 95%;
     gap: 20px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 .hebergement-jaune {
@@ -243,7 +245,7 @@ input {
 .card-container {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     font-weight: normal;
     margin-left: 14px;
     color: black;
@@ -255,7 +257,7 @@ input {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    margin: 0px 18px 5px 2px;
+    margin: 0px 2px 2px 2px;
 }
 
 .hebergement-jaune .card-hebergement .card-container .prix {
@@ -281,10 +283,11 @@ input {
     font-size: 18px;
     line-height: 21px;
     margin-left: 24px;
-    margin-top:0px;
+    margin-top: 0px;
 }
-#next{
-    margin-top:0px;
+
+#next {
+    margin-top: 0px;
 }
 
 .populaire-rouge {
@@ -357,8 +360,8 @@ input {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin-right:18px;
     color: black;
+    margin: 0px;
 }
 
 .euro {
@@ -369,7 +372,7 @@ input {
 .populaire-jaune .card-populaire-desktop .card-container .star-populaire {
     display: flex;
     flex-direction: row;
-    margin: 28px 18px 0px 2px;
+    margin: 5px 18px 0px 2px;
 }
 
 .populaire-jaune .card-populaire-desktop .card-container .star-populaire-eau {
@@ -403,7 +406,7 @@ input {
         border-radius: 15px 15px 0px 0px;
         width: 100%;
         height: 302px;
-        margin-left:16px;
+        margin-left: 16px;
         margin-bottom: 12px;
     }
 
@@ -416,7 +419,7 @@ input {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    margin: 0px 0px 5px 12px;
+    margin: 0px 0px 5px 30px;
     color: black;
 }
 
@@ -457,7 +460,7 @@ footer {
         font-size: 16px;
         line-height: 19px;
         margin-top: 10px;
-        width:196px;
+        width: 196px;
     }
 
 .assistance {
@@ -535,9 +538,16 @@ i.fa-solid.fa-location-dot.fa-lg {
     color: #0065FC;
 }
 
+/*media query min 992 and max 1167 */
+@media screen and (min-width: 400px) and (max-width: 1167px) {
+    .hebergement-jaune .card-hebergement .card-container .nom {
+        font-size: 13px;
+    }
+}
+
+
 
 /* sur les ecrans de 991px ou moins (tablette)*/
-
 @media screen and (max-width: 991px) {
 
     body {
@@ -555,11 +565,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         gap: 30%;
         width: 100%;
     }
-   
+
     .filtre {
         margin-bottom: 0px;
         width: 100%;
-       /* gap:10px;*/
+        /* gap:10px;*/
     }
 
     .hebergement-vert {
@@ -580,6 +590,10 @@ i.fa-solid.fa-location-dot.fa-lg {
     .hebergement-jaune {
         margin-bottom: 10px;
     }
+
+        .hebergement-jaune .card-hebergement .card-container .nom {
+            font-size: 13px;
+        }
 
     .card-container {
         margin-bottom: 32px;
@@ -606,6 +620,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         margin-right: 14px;
     }
 
+    .main a {
+        text-decoration: none;
+        width: 34%;
+    }
+
     .card-populaire-desktop {
         margin-right: 35px;
         width: 93%;
@@ -617,11 +636,11 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 
     .populaire-jaune .card-populaire-desktop .card-container .nom {
-        margin: 13px 14px 11px -6px;
+        line-height: 13px;
     }
 
     .populaire-jaune .card-populaire-desktop .card-container .prix {
-        margin: 0px 13px 37px 2px;
+        margin: 0px 13px 21px 2px;
     }
 
     .populaire-jaune .card-populaire-desktop .card-container .star-populaire-blanc {
@@ -658,7 +677,6 @@ i.fa-solid.fa-location-dot.fa-lg {
 
 
 /* sur les ecrans de 767px ou moins (mobile)*/
-
 @media screen and (max-width: 767px) {
 
     body {
@@ -677,7 +695,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 
         .menu a:hover {
-            border-top:none;
+            border-top: none;
             border-bottom: 2px solid #0065FC;
             font-weight: 500;
             color: #0065FC;
@@ -690,7 +708,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 
     .form {
-      justify-content:center;
+        justify-content: center;
     }
 
     .rechercher {
@@ -739,9 +757,10 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 100%;
     }
 
-.hebergement-rouge {
-   background-color:white;
-}
+    .hebergement-rouge {
+        background-color: white;
+    }
+
     .hebergement-vert {
         flex-direction: column-reverse;
         width: 100%;
@@ -751,7 +770,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         margin-top: 25px;
         height: auto;
         padding-bottom: 0px;
-        background-color:white;
+        background-color: white;
+    }
+
+    .hebergement-jaune .card-hebergement .card-container .nom {
+        font-size: 16px;
     }
 
     .hebergement-jaune {
