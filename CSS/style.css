@@ -138,6 +138,7 @@ input {
 
 .filtres_liens {
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     margin-right: 25px;
     margin-top: 10px;
@@ -152,6 +153,8 @@ input {
     font-size: 17px;
     line-height: 20px;
 }
+
+
 
 .filtres .filtres_list a {
     text-decoration: none;
@@ -537,8 +540,28 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 }
 
+
+/*media query max 327 ou moins*/
+@media screen and (max-width: 327px) {
+
+    .filtres .filtres_list a {
+        font-size:11px;
+        margin-left: 3px;
+       
+    }
+    
+}
+
+
 /* sur les ecrans de 991px ou moins (tablette)*/
 @media screen and (max-width: 991px) {
+
+    .filtres_list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
 
     body {
         margin: 5px;
@@ -662,6 +685,8 @@ i.fa-solid.fa-location-dot.fa-lg {
 
 /* sur les ecrans de 767px ou moins (mobile)*/
 @media screen and (max-width: 767px) {
+
+  
 
     body {
         width: 93%;
