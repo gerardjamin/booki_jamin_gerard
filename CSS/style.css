@@ -693,6 +693,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     .activite {
         padding-left:0px;
+        margin-top:0px;
     }
 
     nav {
@@ -838,10 +839,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         margin: 10px 0px 5px 12px;
     }
 
-    footer {
+    body > footer {
         flex-direction: column;
         align-items: start;
         gap: 30px;
+        margin:auto;
     }
 
     .propos,
