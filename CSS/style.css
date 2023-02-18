@@ -10,6 +10,7 @@ body {
 
 #header {
     width: 96%;
+    padding-left:50px;
 }
 
 /*partie navigation*/
@@ -121,7 +122,7 @@ input {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    width:100%;
+    width: 100%;
 }
 
 .filtres_list {
@@ -138,7 +139,7 @@ input {
 
 .filtres_liens {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     margin-right: 25px;
     margin-top: 10px;
@@ -175,6 +176,7 @@ input {
 
 .main {
     width: 95%;
+    padding-left: 50px;
 }
 
     .main a {
@@ -367,19 +369,19 @@ input {
 .populaire-jaune .card-populaire-desktop .card-container .star-populaire {
     display: flex;
     flex-direction: row;
-    margin: 5px 18px 0px 2px;
+    margin: 5px 18px 7px 2px;
 }
 
 .populaire-jaune .card-populaire-desktop .card-container .star-populaire-eau {
     display: flex;
     flex-direction: row;
-    margin: 8px 18px 0px 2px;
+    margin: 8px 18px 7px 2px;
 }
 
 .populaire-jaune .card-populaire-desktop .card-container .star-populaire-blanc {
     display: flex;
     flex-direction: row;
-    margin: 26px 18px 0px 2px;
+    margin: 26px 18px 7px 2px;
 }
 
 .activite {
@@ -387,6 +389,7 @@ input {
     flex-direction: column;
     width: 95%;
     margin-top: 50px;
+    padding-left: 50px;
 }
 
 .images-activite {
@@ -427,6 +430,7 @@ footer {
     background-color: #F2F2F2;
     justify-content: space-around;
     margin-top: 40px;
+    margin-left: 50px;
     text-decoration: none;
 }
 
@@ -533,36 +537,23 @@ i.fa-solid.fa-location-dot.fa-lg {
     color: #0065FC;
 }
 
-/*media query min 992 and max 1167 */
-@media screen and (min-width: 400px) and (max-width: 1167px) {
-    .hebergement-jaune .card-hebergement .card-container .nom {
-        font-size: 13px;
-    }
-}
-
-
-/*media query max 327 ou moins*/
-@media screen and (max-width: 327px) {
-
-    .filtres .filtres_list a {
-        font-size:11px;
-        margin-left: 3px;
-       
-    }
-    
-}
-
-
 /* sur les ecrans de 991px ou moins (tablette)*/
 @media screen and (max-width: 991px) {
-
-    .filtres_list {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: flex-start;
+    .filtres_titre {
+        font-weight: 600;
+        margin-right: 10px;
     }
 
+    .filtres {
+        width: 110%;
+    }
+
+    .filtres_liens {
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   
     body {
         margin: 5px;
         width: 100%;
@@ -677,8 +668,9 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 
     footer {
-        width: 96%;
-        margin-left: 14px;
+        width: 95%;
+        margin-left: 50px;
+
     }
 }
 
@@ -686,10 +678,21 @@ i.fa-solid.fa-location-dot.fa-lg {
 /* sur les ecrans de 767px ou moins (mobile)*/
 @media screen and (max-width: 767px) {
 
-  
-
     body {
         width: 93%;
+        margin:auto
+    }
+
+    #header{
+        padding-left:0px;
+    }
+
+    .main {
+        padding-left:0px;
+    }
+
+    .activite {
+        padding-left:0px;
     }
 
     nav {
@@ -751,6 +754,17 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     .main a {
         width: 100%;
+    }
+
+    .filtres {
+        width: 100%;
+    }
+
+    .filtres_list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .hebergement-rouge {
