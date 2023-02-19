@@ -757,6 +757,25 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 100%;
     }
 
+    .fa-solid, .fas {
+        font-weight: 900;
+        margin-left: -6px;
+    }
+
+    .filtres .filtres_list a {
+        margin-left: 5px;
+        color: black;
+        font-size: 11px;
+    }
+
+    .filtres_liens {
+        flex:0 0 35%;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:14px;
+    }
+
     .filtres {
         width: 100%;
     }
