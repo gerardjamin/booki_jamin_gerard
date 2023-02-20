@@ -49,6 +49,10 @@ nav {
             padding-top: 18px;
         }
 
+#menu-trait {
+    display:none;
+}
+
 h1 {
     font-style: normal;
     font-weight: 700;
@@ -539,6 +543,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
 /* sur les ecrans de 991px ou moins (tablette)*/
 @media screen and (max-width: 991px) {
+
     .filtres_titre {
         font-weight: 600;
         margin-right: 10px;
@@ -697,6 +702,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     nav {
         flex-direction: column;
+        margin-top:10px;
     }
 
     .menu a {
@@ -708,11 +714,18 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .menu a:hover {
             border-top: none;
-            border-bottom: 2px solid #0065FC;
+            border-bottom: 3px solid #0065FC;
             font-weight: 500;
             color: #0065FC;
             padding-bottom: 18px;
+            margin-bottom: -7px;
         }
+
+    #menu-trait {
+        display:inline-block;
+        width: 100%;
+       margin-top:-2px;
+    }
 
     h1 {
         margin-top: 22px;
@@ -762,7 +775,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 
     .filtres_liens {
-        flex: 0 0 35%;
+        flex: 1 0 35%;
         margin-right: 10px;
         padding-left: 10px;
         padding-right: 10px;
@@ -847,6 +860,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         flex-direction: column;
         width: 100%;
         margin: 0px;
+        margin-top:-30px;
     }
 
     .card-activite {
@@ -859,8 +873,12 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 90%;
     }
 
+    .activite .titre-activites {
+       width:110px;
+    }
+
     .activite .images-activite .card-activite .nom {
-        margin: 10px 0px 5px 12px;
+        margin: 2px 0px 5px 30px;
     }
 
     body > footer {
