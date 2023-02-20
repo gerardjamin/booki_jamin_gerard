@@ -10,7 +10,7 @@ body {
 
 #header {
     width: 96%;
-    padding-left:50px;
+    padding-left: 50px;
 }
 
 /*partie navigation*/
@@ -553,7 +553,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         padding-left: 10px;
         padding-right: 10px;
     }
-   
+
     body {
         margin: 5px;
         width: 100%;
@@ -670,7 +670,6 @@ i.fa-solid.fa-location-dot.fa-lg {
     footer {
         width: 95%;
         margin-left: 50px;
-
     }
 }
 
@@ -680,20 +679,20 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     body {
         width: 93%;
-        margin:auto
+        margin: auto
     }
 
-    #header{
-        padding-left:0px;
+    #header {
+        padding-left: 0px;
     }
 
     .main {
-        padding-left:0px;
+        padding-left: 0px;
     }
 
     .activite {
-        padding-left:0px;
-        margin-top:0px;
+        padding-left: 0px;
+        margin-top: 0px;
     }
 
     nav {
@@ -757,39 +756,43 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 100%;
     }
 
-    .fa-solid, .fas {
+    .filtre-liens .fa-solid, .filtre-liens .fas {
         font-weight: 900;
         margin-left: -6px;
     }
 
-    .filtres .filtres_list a {
-        margin-left: 5px;
-        color: black;
-        font-size: 11px;
-    }
-
     .filtres_liens {
-        flex:0 0 35%;
+        flex: 0 0 35%;
         margin-right: 10px;
         padding-left: 10px;
         padding-right: 10px;
-        font-size:14px;
+        font-size: 14px;
+    }
+
+    .liens-dog {
+        flex: 0 0 40%;
     }
 
     .filtres {
         width: 100%;
     }
 
+        .filtres .filtres_list a {
+            margin-left: 15px;
+            color: black;
+            font-size: 11px;
+        }
+
     .filtres_list {
         display: flex;
         flex-wrap: wrap;
-        align-self:flex-start;
+        align-self: flex-start;
     }
 
     .hebergement-rouge {
         background-color: white;
-        margin:0px;
-        padding-left:8px;
+        margin: 0px;
+        padding-left: 8px;
     }
 
     .hebergement-vert {
@@ -843,7 +846,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     .images-activite {
         flex-direction: column;
         width: 100%;
-        margin:0px;
+        margin: 0px;
     }
 
     .card-activite {
@@ -864,7 +867,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         flex-direction: column;
         align-items: start;
         gap: 30px;
-        margin:auto;
+        margin: auto;
     }
 
     .propos,
