@@ -394,7 +394,6 @@ input {
     flex-direction: column;
     width: 95%;
     margin-top: 50px;
-    padding-left: 50px;
 }
 
 .images-activite {
@@ -549,8 +548,13 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 100%;
     }
 
-    header {
+    #header {
         width: 100%;
+        padding-left:0px;
+    }
+
+    .main {
+        padding-left:0px;
     }
 
     nav {
@@ -669,7 +673,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
 
     .images-activite {
-        margin-left: 20px;
+       width:100%;
     }
 
     .activite {
@@ -678,7 +682,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 /*partie footer*/    
     footer {
         width: 95%;
-        margin-left: 50px;
+        margin-left:0px;
     }
 }
 
