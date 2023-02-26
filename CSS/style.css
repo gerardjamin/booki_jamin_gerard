@@ -1,4 +1,5 @@
 ﻿
+/*Desktop first*/
 body {
     box-sizing: content-box;
     font-family: 'raleway', sans-serif;
@@ -545,6 +546,8 @@ i.fa-solid.fa-location-dot.fa-lg {
     margin-right: 15px;
     color: #0065FC;
 }
+
+/*Partie responsive du site*/
 
 /* sur les ecrans de 991px ou moins (tablette)*/
 @media screen and (max-width: 991px) {
