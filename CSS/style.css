@@ -114,6 +114,7 @@ input {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    border:none;
     background-color: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
