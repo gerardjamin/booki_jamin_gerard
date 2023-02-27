@@ -6,7 +6,7 @@ body {
     max-width: 1400px;
     width: 97%;
     padding: 3px;
-    margin: auto;
+   /* margin: auto;*/
 }
 
 #header {
@@ -41,15 +41,16 @@ nav {
     .menu a {
         text-decoration: none;
         color: black;
-        padding-top: 20px;
+        padding-top: 50px;
         width: 120px;
+        margin-top:-30px;
     }
 
         .menu a:hover {
             border-top: 2px solid #0065FC;
             font-weight: 500;
             color: #0065FC;
-            padding-top: 18px;
+            padding-top: 48px;
         }
 
 #menu-trait {
@@ -106,7 +107,7 @@ input {
     outline: none;
 }
 
-#recherche {
+#recherche-loupe {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -119,8 +120,8 @@ input {
     width: 132px;
 }
 
-#recherche-loupe {
-    display: none;
+i.fa-solid.fa-magnifying-glass{
+    display:none
 }
 
 /*partie filtre*/
@@ -164,8 +165,6 @@ input {
     font-size: 17px;
     line-height: 20px;
 }
-
-
 
 .filtres .filtres_list a {
     text-decoration: none;
@@ -245,7 +244,7 @@ input {
 .Img-hebergement {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    width: 96%;
+    width: 95%;
     height: 111px;
     border: solid 5px white;
 }
@@ -406,7 +405,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 95%;
+    width: 99%;
 }
 
     .images-activite .card-activite img {
@@ -416,6 +415,7 @@ input {
         height: 302px;
         margin-left: 16px;
         margin-bottom: 12px;
+        box-shadow: 5px 10px #f0f2f6;
     }
 
 .card-activite {
@@ -717,7 +717,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         text-decoration: none;
         color: black;
         padding-bottom: 20px;
-        width: 120px;
+        width: 160px;
     }
 
         .menu a:hover {
@@ -734,14 +734,22 @@ i.fa-solid.fa-location-dot.fa-lg {
         margin-top:-2px;
     }
 
+    i.fa-solid.fa-magnifying-glass {
+       display:inline;
+    }
+
+    #text {
+        display: none;
+    }
+
     h1 {
         margin-top: 22px;
-        text-align: center;
+        text-align: left;
     }
 
     h5 {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
 
     .form {
@@ -752,20 +760,6 @@ i.fa-solid.fa-location-dot.fa-lg {
         align-items: center;
         justify-content: center;
         width: 100%;
-    }
-
-    #recherche {
-        display: none;
-    }
-
-    #recherche-loupe {
-        background-color: #0065FC;
-        color: white;
-        border-radius: 0px 10px 10px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 49px;
     }
 
     #info {
@@ -886,7 +880,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     .images-activite .card-activite img {
         height: 136px;
-        width: 90%;
+        width: 100%;
     }
 
     .activite .titre-activites {
