@@ -6,7 +6,7 @@ body {
     max-width: 1400px;
     width: 97%;
     padding: 3px;
-    /* margin: auto;*/
+    margin: auto;
 }
 
 #header {
@@ -712,7 +712,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         text-decoration: none;
         color: black;
         padding-bottom: 20px;
-        width: 160px;
+        width: 350px;
     }
     .menu a:hover {
         border-top: none;
@@ -742,6 +742,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
     .form {
         justify-content: center;
+        width: 100%;
     }
     /*partie recherche*/
     .rechercher {
@@ -759,6 +760,10 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 100%;
     }
     /*partie filtre*/
+    .filtres_titre {
+        font-weight: 600;
+        margin-right: 700px;
+    }
     .filtre-liens .fa-solid,
     .filtre-liens .fas {
         font-weight: 900;
@@ -776,11 +781,12 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
     .filtres {
         width: 100%;
+        flex-direction: column;
     }
     .filtres .filtres_list a {
         margin-left: 6px;
         color: black;
-        font-size: 11px;
+        font-size: 16px;
     }
     .filtres_list {
         display: flex;
@@ -821,6 +827,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     .populaire-rouge {
         justify-content: center;
         height: auto;
+        margin-left: 15px;
     }
     .populaire-jaune {
         flex-direction: column;
