@@ -55,10 +55,6 @@ nav {
     padding-top: 48px;
 }
 
-#menu-trait {
-    display: none;
-}
-
 h1 {
     font-style: normal;
     font-weight: 700;
@@ -707,6 +703,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     nav {
         flex-direction: column;
         margin-top: 10px;
+        border-bottom: 3px solid #F2F2F2;
     }
     .menu a {
         text-decoration: none;
@@ -721,11 +718,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         color: #0065FC;
         padding-bottom: 18px;
     }
-    #menu-trait {
+    /* #menu-trait {
         display: inline-block;
         width: 100%;
         margin-top: -2px;
-    }
+    } */
     i.fa-solid.fa-magnifying-glass {
         display: inline;
     }
