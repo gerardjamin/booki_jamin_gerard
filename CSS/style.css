@@ -712,7 +712,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         text-decoration: none;
         color: black;
         padding-bottom: 20px;
-        width: 350px;
+        /* width: 350px; */
     }
     .menu a:hover {
         border-top: none;
@@ -754,7 +754,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         margin-bottom: 20px;
     }
     .main {
-        padding-left: 0px;
+        margin: auto;
     }
     .main a {
         width: 100%;
@@ -786,7 +786,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     .filtres .filtres_list a {
         margin-left: 6px;
         color: black;
-        font-size: 16px;
+        font-size: 11px;
     }
     .filtres_list {
         display: flex;
