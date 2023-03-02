@@ -16,43 +16,43 @@ body {
     padding-left: 50px;
 }
 
+/* Header */
 
-/*partie navigation*/
+header nav {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 2% 0 2% 0;
-    width: 95%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
-.menu {
+    nav .logo {
+        padding: 40px;
+        text-decoration:none;
+        border-top: 3px solid transparent;
+        color: black;
+    }
+
+        nav .logo:hover {
+            border-top-color: blue;
+            color: blue;
+        }
+
+ #Booki {
+    margin-right: auto;
+    padding: 10px 0px;
+}
+
+nav img {
+    height: 20px;
+}
+
+.menu{
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #0065FC;
-}
-
-.menu a {
-    text-decoration: none;
-    color: black;
-    padding-top: 50px;
-    width: 120px;
-    margin-top: -30px;
-}
-
-.menu a:hover {
-    border-top: 2px solid #0065FC;
-    font-weight: 500;
-    color: #0065FC;
-    padding-top: 48px;
 }
 
 h1 {
@@ -696,33 +696,41 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 93%;
         margin: auto
     }
+
+
     #header {
         padding-left: 0px;
     }
-    /*partie menu*/
-    nav {
-        flex-direction: column;
-        margin-top: 10px;
-        border-bottom: 3px solid #F2F2F2;
+
+    /* Header */
+
+     header nav {
+        padding: 0;
     }
-    .menu a {
-        text-decoration: none;
-        color: black;
-        padding-bottom: 20px;
-        /* width: 350px; */
+
+    .menu {
+        flex-basis: 100%;
+        text-align: center;
     }
-    .menu a:hover {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-        font-weight: 500;
-        color: #0065FC;
-        padding-bottom: 18px;
+
+        .menu .logo {
+            flex-basis: 50%;
+            border-bottom: 3px solid #F2F2F2;
+            padding: 15px;
+        }
+
+            .menu .logo:hover {
+                border-bottom-color: #0065FC;
+                border-top-color: transparent;
+            }
+
+    #Booki {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    /* #menu-trait {
-        display: inline-block;
-        width: 100%;
-        margin-top: -2px;
-    } */
+
+
     i.fa-solid.fa-magnifying-glass {
         display: inline;
     }
