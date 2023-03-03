@@ -117,7 +117,7 @@ input {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    width: 132px;
+    width: 27%;
 }
 
 i.fa-solid.fa-magnifying-glass {
@@ -739,7 +739,8 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
     h1 {
         margin-top: 22px;
-        text-align: left;
+        margin-left:5px;
+       
     }
     h5 {
         display: flex;
@@ -809,7 +810,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         width: 100%;
     }
     .hebergement-bleu {
-        margin-top: 25px;
+        margin-top: 0px;
         height: auto;
         padding-bottom: 0px;
         background-color: white;
@@ -831,8 +832,9 @@ i.fa-solid.fa-location-dot.fa-lg {
     /*partie populaire*/
     .populaire-rouge {
         justify-content: center;
+        width:100%;
         height: auto;
-        margin-left: 15px;
+        margin: 0px;
     }
     .populaire-jaune {
         flex-direction: column;
@@ -864,7 +866,7 @@ i.fa-solid.fa-location-dot.fa-lg {
     }
     .images-activite .card-activite img {
         height: 136px;
-        width: 100%;
+        width: 94%;
     }
     .activite .titre-activites {
         width: 110px;
