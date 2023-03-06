@@ -227,7 +227,7 @@ i.fa-solid.fa-magnifying-glass {
     flex-direction: column;
     margin: 2.5%;
     width: 95%;
-    gap: 20px;
+    gap: 13px;
     margin: auto;
 }
 
@@ -241,7 +241,7 @@ i.fa-solid.fa-magnifying-glass {
 .card-hebergement {
     width: 31%;
     height: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
 }
@@ -299,7 +299,8 @@ i.fa-solid.fa-magnifying-glass {
 }
 
 #next {
-    margin-top: 0px;
+    margin: 0px;
+    padding-bottom:40px;
 }
 
 
@@ -337,6 +338,7 @@ i.fa-solid.fa-magnifying-glass {
 .populaire-jaune {
     display: flex;
     flex-direction: column;
+    gap:1px;
    /* width: 94%;*/
 }
 
