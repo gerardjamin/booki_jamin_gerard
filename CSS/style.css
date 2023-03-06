@@ -13,7 +13,7 @@ body {
 #header {
     display: flex;
     flex-direction: column;
-    width: 96%;
+    width: 100%;
     padding-left: 50px;
 }
 
@@ -132,7 +132,6 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     flex-direction: row;
     padding: 30px 0;
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
@@ -571,9 +570,8 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     @media screen and (max-width: 991px) {
         body {
-            margin: 5px;
-            width: 100%;
-            font-size: 11px;
+            max-width:991px;
+           
         }
 
         #header {
@@ -594,11 +592,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         /*partie filtre*/
         .filtres_titre {
             font-weight: 600;
-            margin-right: 10px;
+            margin-right: 21px;
         }
 
-        .filtres {
-            width: 110%;
+        .filtres_list {
+            gap:20px;
         }
 
         .filtres_liens {
@@ -615,7 +613,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         .hebergement-bleu {
             width: 97%;
             height: 625px;
-            padding-bottom: 50px;
+           /* padding-bottom: 50px;*/
         }
 
         .hebergement-rouge {
@@ -708,10 +706,10 @@ i.fa-solid.fa-location-dot.fa-lg {
             padding-left: 0px;
         }
         /*partie footer*/
-        footer {
+        /*footer {
             width: 95%;
             margin-left: 0px;
-        }
+        }*/
     }
 
 
