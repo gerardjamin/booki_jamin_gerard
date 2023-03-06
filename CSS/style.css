@@ -156,7 +156,7 @@ i.fa-solid.fa-magnifying-glass {
     align-items: center;
     margin-right: 25px;
     margin-top: 10px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 25px 25px 25px 25px;
     color: blue;
     height: 48px;
     border: 1px solid #D9D9D9;
@@ -570,8 +570,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     @media screen and (max-width: 991px) {
         body {
-            max-width:991px;
-           
+            max-width:991px;         
         }
 
         #header {
@@ -595,9 +594,9 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin-right: 21px;
         }
 
-        .filtres_list {
+       /* .filtres_list {
             gap:20px;
-        }
+        }*/
 
         .filtres_liens {
             margin-right: 10px;
@@ -695,7 +694,8 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
         /*partie activité*/
         .images-activite .card-activite img {
-            height: 227px;
+            height: 267px;
+            width:90%;
         }
 
         .images-activite {
@@ -706,10 +706,10 @@ i.fa-solid.fa-location-dot.fa-lg {
             padding-left: 0px;
         }
         /*partie footer*/
-        /*footer {
-            width: 95%;
-            margin-left: 0px;
-        }*/
+        footer {
+            width: 97%;
+            margin-left: 14px;
+        }
     }
 
 
@@ -717,8 +717,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
     @media screen and (max-width: 767px) {
         body {
-            width: 93%;
-            margin: auto
+            max-width: 767px;
         }
 
 
@@ -773,6 +772,10 @@ i.fa-solid.fa-location-dot.fa-lg {
             justify-content: left;
         }
 
+        #fname {
+            width: 65%;
+        }
+
         .form {
             justify-content: center;
             width: 100%;
@@ -782,6 +785,10 @@ i.fa-solid.fa-location-dot.fa-lg {
             align-items: center;
             justify-content: center;
             width: 100%;
+        }
+
+        #recherche-loupe {
+            width: 17%;
         }
 
         #info {
@@ -840,6 +847,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             background-color: white;
             margin: 0px;
             padding-left: 8px;
+            width:100%;
         }
 
         .hebergement-vert {
@@ -852,6 +860,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             height: auto;
             padding-bottom: 0px;
             background-color: white;
+            width:100%;
         }
 
         .hebergement-jaune .card-hebergement .card-container .nom {
@@ -877,6 +886,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             width: 100%;
             height: auto;
             margin: 0px;
+            border-radius:0px;
         }
 
         .populaire-jaune {
@@ -913,7 +923,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .images-activite .card-activite img {
             height: 136px;
-            width: 94%;
+            width: 95%;
         }
 
         .activite .titre-activites {
@@ -929,6 +939,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             align-items: start;
             gap: 30px;
             margin: auto;
+            width:95%;
         }
 
         .propos,
