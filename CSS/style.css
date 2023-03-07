@@ -65,7 +65,7 @@ nav img {
 h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 26px;
     margin-top: 16px;
 }
@@ -588,13 +588,34 @@ i.fa-solid.fa-location-dot.fa-lg {
             max-width:991px;         
         }
 
-        #header {
-            width: 100%;
+        header {
+            width: 86%;
+            margin: auto;
+           /* width: 100%;*/
             padding-left: 0px;
+        }
+
+        h1 {
+            width: 86%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            width: 86%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .rechercher {
+            width: 86%;
+            margin: auto;
         }
 
         .main {
             padding-left: 0px;
+            width: 86%;
+            margin: auto;
         }
 
         nav {
@@ -607,6 +628,16 @@ i.fa-solid.fa-location-dot.fa-lg {
         .filtres_titre {
             font-weight: 600;
             margin-right: 21px;
+        }
+
+        .filtres {
+            width: 86%;
+            margin: auto;
+        }
+
+        #info {
+            width: 86%;
+            margin: auto;
         }
 
        /* .filtres_list {
@@ -722,8 +753,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
         /*partie footer*/
         footer {
-            width: 97%;
+            /*width: 97%;*/
             margin-left: 14px;
+            width: 86%;
+            margin: auto;
+            margin-top: 69px;
         }
     }
 
