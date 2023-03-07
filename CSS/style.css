@@ -1,6 +1,12 @@
 ﻿
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');*/
 /*Desktop first*/
+
+* {
+    margin:0;
+    padding:0;
+}
+
 body {
     box-sizing: content-box;
     font-family: 'raleway', sans-serif;
@@ -450,6 +456,7 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height:225px;
     padding-bottom: 10px;
     background-color: #F2F2F2;
     justify-content: space-around;
@@ -467,6 +474,8 @@ footer a {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    margin-top:45px;
+    margin-bottom:20px;
 }
 
 .propos {
@@ -569,6 +578,11 @@ i.fa-solid.fa-location-dot.fa-lg {
     /* sur les ecrans de 991px ou moins (tablette)*/
 
     @media screen and (max-width: 991px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             max-width:991px;         
         }
@@ -716,6 +730,11 @@ i.fa-solid.fa-location-dot.fa-lg {
     /* sur les ecrans de 767px ou moins (mobile)*/
 
     @media screen and (max-width: 767px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             max-width: 767px;
         }
