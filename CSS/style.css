@@ -588,6 +588,10 @@ i.fa-solid.fa-location-dot.fa-lg {
             padding: 0;
         }
 
+        html {
+            width:100%;
+        }
+
         body {
             max-width:991px;         
         }
@@ -614,6 +618,10 @@ i.fa-solid.fa-location-dot.fa-lg {
         .rechercher {
             width: 86%;
             margin: auto;
+        }
+
+        .form {
+            width: 60%;
         }
 
         .main {
@@ -719,6 +727,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .populaire-jaune .card-populaire-desktop .card-container .nom {
             line-height: 13px;
+            padding-top:10px;
         }
 
         .populaire-jaune .card-populaire-desktop .card-container .prix {
