@@ -20,13 +20,6 @@ body {
     margin: auto;
 }
 
-/*header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-left: 50px;
-}*/
-
 /* Header */
 
 header nav {
@@ -198,7 +191,6 @@ i.fa-solid.fa-magnifying-glass {
 
 .main {
     width: 100%;
-    /*padding-left: 50px;*/
 }
 
 .main a {
@@ -217,7 +209,6 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     flex-direction: row;
     align-items: center;
-   /* width: 95%;*/
     gap: 2.5%;
     justify-content: space-around;
 }
@@ -245,7 +236,6 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   /* width: 100%;*/
 }
 
 .card-hebergement {
@@ -349,13 +339,11 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     flex-direction: column;
     gap:1px;
-   /* width: 94%;*/
 }
 
 .card-populaire-desktop {
     display: flex;
     flex-direction: row;
-    /*justify-content: flex-start;*/
     width: 90%;
     border-radius: 15px 15px 15px 15px;
     margin: 15px 1% 15px 4.5%;
@@ -428,7 +416,6 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   /* width: 99%;*/
 }
 
 .images-activite .card-activite img {
@@ -466,7 +453,6 @@ footer {
     background-color: #F2F2F2;
     justify-content: space-around;
     margin-top: 40px;
-   /* margin-left: 50px;*/
     text-decoration: none;
 }
 
@@ -599,7 +585,6 @@ i.fa-solid.fa-location-dot.fa-lg {
         header {
             width: 86%;
             margin: auto;
-           /* width: 100%;*/
             padding-left: 0px;
         }
 
@@ -652,10 +637,6 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin: auto;
         }
 
-       /* .filtres_list {
-            gap:20px;
-        }*/
-
         .filtres_liens {
             margin-right: 10px;
             padding-left: 10px;
@@ -670,7 +651,6 @@ i.fa-solid.fa-location-dot.fa-lg {
         .hebergement-bleu {
             width: 97%;
             height: 625px;
-           /* padding-bottom: 50px;*/
         }
 
         .hebergement-rouge {
@@ -766,7 +746,6 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
         /*partie footer*/
         footer {
-            /*width: 97%;*/
             margin-left: 14px;
             width: 86%;
             margin: auto;
@@ -785,6 +764,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         body {
             max-width: 767px;
+            width: 98%;
         }
 
 
@@ -1015,7 +995,6 @@ i.fa-solid.fa-location-dot.fa-lg {
             gap: 30px;
             margin: auto;
             padding-bottom: 61px;
-            width: 100%;
             height: 501px;
             margin-top: 65px;
         }
