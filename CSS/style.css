@@ -1,5 +1,4 @@
 ﻿
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');*/
 /*Desktop first*/
 
 * {
@@ -649,7 +648,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
 
         .hebergement-bleu {
-            width: 97%;
+            width: 99%;
             height: 625px;
         }
 
@@ -675,7 +674,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
         /*partie populaire*/
         .populaire-rouge {
-            width: 97%;
+            width: 99%;
             margin-top: 25px;
             height: 300px;
         }
@@ -688,7 +687,6 @@ i.fa-solid.fa-location-dot.fa-lg {
             flex-direction: row;
             padding-bottom: 30px;
             width: 94%;
-            margin-right: auto;
         }
 
         .main a {
@@ -735,8 +733,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
         /*partie activité*/
         .images-activite .card-activite img {
-            height: 267px;
-            width:90%;
+            height: 211px;
         }
 
         .images-activite {
