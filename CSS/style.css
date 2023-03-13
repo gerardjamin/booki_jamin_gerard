@@ -226,7 +226,7 @@ i.fa-solid.fa-magnifying-glass {
     flex-direction: column;
     margin: 2.5%;
     width: 95%;
-    gap: 9px;
+    gap: 4px;
     margin-top:7px;
 }
 
@@ -687,6 +687,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             flex-direction: row;
             padding-bottom: 30px;
             width: 94%;
+            margin-right: 3px;
         }
 
         .main a {
@@ -895,8 +896,8 @@ i.fa-solid.fa-location-dot.fa-lg {
         .filtres_list {
             display: flex;
             flex-wrap: wrap;
-            align-self: flex-start;
-            padding-left: 2%;
+            align-items: center;
+            margin-right: 4%;
         }
         /*partie hebergement*/
         .hebergement-rouge {
