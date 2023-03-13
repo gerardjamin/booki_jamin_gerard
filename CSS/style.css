@@ -7,16 +7,16 @@
     padding:0;
 }
 
-html {
+/* html {
     width:87%;
     margin:auto;
-}
+} */
 body {
     box-sizing: content-box;
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
     width: 97%;
-    padding: 3px;
+    /* padding: 3px; */
     margin: auto;
 }
 
@@ -35,15 +35,16 @@ nav {
 }
 
     nav .logo {
-        padding: 40px;
+        padding: 45px;
         text-decoration:none;
         border-top: 3px solid transparent;
         color: black;
     }
 
         nav .logo:hover {
-            border-top-color: blue;
-            color: blue;
+            padding-top: 45px;;
+            border-top-color: #0065FC;
+            color: #0065FC;
         }
 
  #Booki {
@@ -88,6 +89,7 @@ h5 {
     width: 55%;
     border-top: solid 1px #F2F2F2;
     border-bottom: solid 1px #F2F2F2;
+    padding-left: 16px;
 }
 
 .rechercher {
@@ -147,6 +149,7 @@ i.fa-solid.fa-magnifying-glass {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    margin-top: -10px;
 }
 
 .filtres_titre {
@@ -161,7 +164,7 @@ i.fa-solid.fa-magnifying-glass {
     margin-right: 25px;
     margin-top: 10px;
     border-radius: 25px 25px 25px 25px;
-    color: blue;
+    color: #0065FC;
     height: 48px;
     border: 1px solid #D9D9D9;
     padding-left: 21px;
@@ -200,6 +203,7 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 16px;
     line-height: 19px;
     margin-top: 10px;
+    height:157px;
 }
 
 
@@ -228,8 +232,8 @@ i.fa-solid.fa-magnifying-glass {
     flex-direction: column;
     margin: 2.5%;
     width: 95%;
-    gap: 13px;
-    margin: auto;
+    gap: 9px;
+    margin-top:7px;
 }
 
 .hebergement-jaune {
@@ -313,7 +317,7 @@ i.fa-solid.fa-magnifying-glass {
     align-items: center;
     border-radius: 15px;
     width: 35%;
-    height: 625px;
+    height: 618px;
     background: #F2F2F2;
 }
 
@@ -332,21 +336,23 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     width: 100%;
 }
 
 .populaire-jaune {
     display: flex;
     flex-direction: column;
-    gap:1px;
+    gap:13px;
+    margin-top: -13px;
 }
 
 .card-populaire-desktop {
     display: flex;
     flex-direction: row;
     width: 90%;
-    border-radius: 15px 15px 15px 15px;
+    /* height:147px; */
+    border-radius: 20px;
     margin: 15px 1% 15px 4.5%;
     background-color: white;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -356,10 +362,10 @@ i.fa-solid.fa-magnifying-glass {
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     width: 127px;
-    height: 131px;
-    margin-top: 3px;
-    margin-left: 2px;
-    border: solid 2px white;
+    height: 140px;
+    /* margin-top: 2px;
+    margin-left: 2px; */
+    border: solid 5px white;
 }
 
 .populaire-jaune .card-populaire-desktop .card-container .nom {
@@ -422,16 +428,20 @@ i.fa-solid.fa-magnifying-glass {
 
 .images-activite .card-activite img {
     object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-    width: 97%;
-    height: 302px;
-    margin-left: 16px;
+    border-radius: 20px 20px 0px 0px;
+    /* border-radius: 20px; */
+    width: 100%;
+    height: 444px;
+    /* margin-left: 16px; */
     margin-bottom: 12px;
     /* box-shadow: 5px 10px #f0f2f6; */
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1); */
+    height:85%;
 }
 
 .card-activite {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
+    border-radius: 0px 0px 20px 20px;
     width: 23%;
 }
 
@@ -440,7 +450,7 @@ i.fa-solid.fa-magnifying-glass {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    margin: 0px 0px 5px 30px;
+    margin: 0px 0px 21px 19px;
     color: black;
 }
 
@@ -526,7 +536,7 @@ footer a {
 
 .fa-chart-line {
     padding-right: 20px;
-    margin-top: 20px;
+    margin-top: 29px;
     color: #0065FC;
 }
 
@@ -541,7 +551,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 }
 
 .fa-star {
-    color: blue;
+    color: #0065FC;
 }
 
 .fa-grey {
@@ -669,7 +679,8 @@ i.fa-solid.fa-location-dot.fa-lg {
             }
 
         .card-container {
-            margin-bottom: 32px;
+            margin-bottom: 22px;
+            margin-left: 0px;
         }
 
         #next a {
@@ -689,13 +700,13 @@ i.fa-solid.fa-location-dot.fa-lg {
         .populaire-jaune {
             flex-direction: row;
             padding-bottom: 30px;
-            width: 97%;
-            margin-right: 14px;
+            width: 94%;
+            margin-right: auto;
         }
 
         .main a {
             text-decoration: none;
-            width: 34%;
+            width: 33.7%;
         }
 
         .card-populaire-desktop {
@@ -706,6 +717,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .Img-populaire {
             width: 92px;
+            height:auto;
         }
 
         .populaire-jaune .card-populaire-desktop .card-container .nom {
@@ -787,13 +799,13 @@ i.fa-solid.fa-location-dot.fa-lg {
             text-align: center;
         }
 
-            .menu .logo {
+            nav .logo {
                 flex-basis: 50%;
                 border-bottom: 3px solid #F2F2F2;
-                padding: 15px;
+                /* padding: 15px; */
             }
 
-                .menu .logo:hover {
+                nav .logo:hover {
                     border-bottom-color: #0065FC;
                     border-top-color: transparent;
                 }
@@ -817,15 +829,15 @@ i.fa-solid.fa-location-dot.fa-lg {
         h1 {
             margin-top: 22px;
             margin-left: 5px;
-            width:100%;
+            width:95%;
         }
 
         h5 {
             display: flex;
             justify-content: left;
-            width: 100%;
+            width: 95%;
             margin: auto;
-            padding-left: 7px;
+            /* padding-left: 7px; */
             margin-bottom: 35px;
         }
 
@@ -855,6 +867,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .main {
             margin: auto;
+            width:100%;
         }
 
             .main a {
@@ -863,7 +876,10 @@ i.fa-solid.fa-location-dot.fa-lg {
         /*partie filtre*/
         .filtres_titre {
             font-weight: 600;
-            margin-right: 700px;
+            /* margin-right: 700px; */
+            margin-bottom: 15px;
+            width:100%;
+            padding-left: 2%;
         }
 
         .filtre-liens .fa-solid,
@@ -899,6 +915,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             display: flex;
             flex-wrap: wrap;
             align-self: flex-start;
+            padding-left: 2%;
         }
         /*partie hebergement*/
         .hebergement-rouge {
@@ -945,7 +962,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             height: auto;
             margin: 0px;
             border-radius:0px;
-            padding-right:20%;
+            padding-right:2%;
         }
 
         .populaire-jaune {
@@ -953,7 +970,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             align-items: center;
             gap: 10px;
             width: 100%;
-            padding-left: 22%;
+            /* padding-left: 22%; */
         }
 
         .card-populaire-desktop,
@@ -965,19 +982,21 @@ i.fa-solid.fa-location-dot.fa-lg {
         /*partie activité*/
         .activite {
             padding-left: 0px;
-            margin-top: 0px;
+            margin-top: 50px;
         }
 
         .images-activite {
             flex-direction: column;
             width: 100%;
-            margin: 0px;
-            margin-top: -30px;
+            /* margin: 0px;
+            margin-top: -30px; */
+            gap:30px;
         }
 
         .card-activite {
             width: 100%;
             height: 194px;
+           padding-left: 9px;
         }
 
         .images-activite .card-activite img {
