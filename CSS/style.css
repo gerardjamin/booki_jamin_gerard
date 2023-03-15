@@ -118,7 +118,7 @@ input {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    width: 27%;
+    width: 30%;
 }
 
 i.fa-solid.fa-magnifying-glass {
@@ -171,7 +171,7 @@ i.fa-solid.fa-magnifying-glass {
 
 .filtres .filtres_list a {
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 10px;
     color: black;
 }
 
@@ -218,7 +218,7 @@ i.fa-solid.fa-magnifying-glass {
     height: 626px;
     border-radius: 15px;
     background: #F2F2F2;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .hebergement-rouge {
@@ -311,7 +311,7 @@ i.fa-solid.fa-magnifying-glass {
     align-items: center;
     border-radius: 15px;
     width: 35%;
-    height: 618px;
+    height: 626px;
     background: #F2F2F2;
 }
 
@@ -637,9 +637,10 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
 
         .filtres_liens {
-            margin-right: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
+            margin-right: unset;
+            padding-left: 0.1em;
+            padding-right: 0.1em;
+            transform:scale(0.89);
         }
         /*partie hébergement*/
         .hebergement-vert {
@@ -687,7 +688,9 @@ i.fa-solid.fa-location-dot.fa-lg {
             flex-direction: row;
             padding-bottom: 30px;
             width: 94%;
-            margin-right: 3px;
+            margin-right: 8px;
+            gap:unset;
+            margin-top:unset;
         }
 
         .main a {
@@ -875,6 +878,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin-right: 10px;
             padding-left: 10px;
             padding-right: 10px;
+            justify-content: center;
             font-size: 14px;
         }
 
@@ -883,7 +887,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
 
         .filtres {
-            width: 100%;
+            width: 98%;
             flex-direction: column;
         }
 
@@ -909,7 +913,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .hebergement-vert {
             flex-direction: column-reverse;
-            width: 100%;
+            width: 99%;
         }
 
         .hebergement-bleu {
@@ -931,7 +935,16 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
 
         .card-hebergement {
-            width: 100%;
+            width: 90%;
+            margin-left: 3.8%;
+        }
+
+        .Img-hebergement {
+            width: 97%;
+        }
+
+        .card-container {
+            margin-left: 14px;
         }
 
         #next {
@@ -940,11 +953,11 @@ i.fa-solid.fa-location-dot.fa-lg {
         /*partie populaire*/
         .populaire-rouge {
             justify-content: center;
-            width: 100%;
+            width: 99%;
             height: auto;
             margin: 0px;
             border-radius:0px;
-            padding-right:2%;
+            padding-right:5%;
         }
 
         .populaire-jaune {
@@ -954,11 +967,16 @@ i.fa-solid.fa-location-dot.fa-lg {
             width: 100%;
         }
 
+        .populaire-jaune a {
+            text-decoration: none;
+            width:99%;
+        }
+
         .card-populaire-desktop,
         .card-populaire-eau,
         .card-populaire-bleu {
-            width: 95%;
-            margin-left: 15px;
+            width: 90%;
+            margin-left: 8%;
         }
         /*partie activité*/
         .activite {
@@ -968,19 +986,22 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .images-activite {
             flex-direction: column;
-            width: 100%;
+            width: 90%;
             gap:30px;
+            margin-left:2%;
         }
 
         .card-activite {
             width: 100%;
             height: 194px;
-           padding-left: 9px;
+           padding-left: 4.2%;
+           border-radius:20px;
         }
 
         .images-activite .card-activite img {
             height: 136px;
-            width: 95%;
+            width: 99%;
+            padding-left: 1%;
         }
 
         .activite .titre-activites {
@@ -992,15 +1013,17 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
         /*partie footer*/
         body > footer {
-            flex-direction: column;
+            /* flex-direction: column;
             align-items: start;
-            gap: 30px;
+            gap: 30px; */
+            display: inline-block;
             margin: auto;
-            padding-bottom: 61px;
+            /* padding-bottom: 61px; */
             height: 501px;
             margin-top: 65px;
             margin-left: -1%;
-            padding-right: 17%;
+            padding-right: 3%;
+            width: 99%;
         }
 
         .propos,
