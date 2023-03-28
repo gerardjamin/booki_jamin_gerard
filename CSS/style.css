@@ -627,6 +627,11 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin: auto;
         }
 
+         .fa-info {
+            position: relative;
+            bottom: 10px;
+        }
+
         .filtres_liens {
             margin-right: unset;
             padding-left: 0.1em;
@@ -833,6 +838,11 @@ i.fa-solid.fa-location-dot.fa-lg {
             width:100%;
         }
 
+        .fa-info {
+            position: relative;
+            bottom: 10px;
+        }
+
         .main {
             margin: auto;
             width:100%;
@@ -1001,7 +1011,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin-top: 65px;
             margin-left: -1%;
             padding-right: 3%;
-            width: 99%;
+            width: 100%;
         }
 
         .propos,
