@@ -784,6 +784,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             border-bottom: 3px solid transparent;
            width:50%;
            text-align: center;
+           padding:45px 0;
         }
 
         #menuL a:hover {
