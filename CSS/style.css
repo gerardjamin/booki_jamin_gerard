@@ -1,4 +1,4 @@
-﻿
+﻿@import "./normalize.css";
 /*Desktop first*/
 
 * {
@@ -761,7 +761,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
 
         body {
-            max-width: 767px;
+            max-width: 768px;
             width: 98%;
         }
 
@@ -778,9 +778,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin-top: 20px;
         }
        
-        #menuL a {
-           
-           
+        #menuL a {  
             border-bottom: 3px solid transparent;
            width:50%;
            text-align: center;
@@ -789,8 +787,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         #menuL a:hover {
             border-top:3px solid transparent;
-            border-bottom-color: #0065FC;
-           
+            border-bottom-color: #0065FC;   
         }
        
         i.fa-solid.fa-magnifying-glass {
@@ -848,7 +845,6 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin: auto;
             width:100%;
         }
-
             .main a {
                 width: 100%;
             }
@@ -900,7 +896,6 @@ i.fa-solid.fa-location-dot.fa-lg {
         .hebergement-rouge {
             background-color: white;
             margin: 0px;
-            padding-left: 8px;
             width:100%;
         }
 
@@ -957,7 +952,7 @@ i.fa-solid.fa-location-dot.fa-lg {
             flex-direction: column;
             align-items: center;
             gap: 10px;
-            width: 100%;
+            /* width: 100%; */
         }
 
         .populaire-jaune a {
@@ -1010,15 +1005,15 @@ i.fa-solid.fa-location-dot.fa-lg {
             margin: auto;
             height: 501px;
             margin-top: 65px;
-            margin-left: -1%;
-            padding-right: 3%;
-            width: 100%;
+            width: 99.5%;
+            position: absolute;
+            left:0.5px;
         }
 
         .propos,
         .assistance,
         .hebergement {
-            margin-left: 20px;
-            width: 100%;
+            padding-left: 20px;
+            width: 65%;
         }
     }
