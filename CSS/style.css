@@ -57,7 +57,7 @@ body {
 h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 22px;
     line-height: 26px;
     margin-top: 16px;
 }
@@ -786,6 +786,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         }
 
         #menuL a:hover {
+            height:0;
             border-top:3px solid transparent;
             border-bottom-color: #0065FC;   
         }
@@ -924,11 +925,11 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .card-hebergement {
             width: 90%;
-            margin-left: 3.8%;
+            margin-left: 4.9%;
         }
 
         .Img-hebergement {
-            width: 99%;
+            width: 97%;
         }
 
         .card-container {
@@ -963,8 +964,8 @@ i.fa-solid.fa-location-dot.fa-lg {
         .card-populaire-desktop,
         .card-populaire-eau,
         .card-populaire-bleu {
-            width: 90%;
-            margin-left: 8%;
+            width: 97%;
+            margin-left: 5%;
         }
         /*partie activité*/
         .activite {
@@ -982,7 +983,7 @@ i.fa-solid.fa-location-dot.fa-lg {
         .card-activite {
             width: 100%;
             height: 194px;
-           padding-left: 4.2%;
+           padding-left: 3.2%;
            border-radius:20px;
         }
 
@@ -994,6 +995,7 @@ i.fa-solid.fa-location-dot.fa-lg {
 
         .activite .titre-activites {
             width: 110px;
+            margin-bottom: 0;
         }
 
         .activite .images-activite .card-activite .nom {
