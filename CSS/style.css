@@ -427,7 +427,7 @@ i.fa-solid.fa-magnifying-glass {
 
 .card-activite {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
     width: 23%;
 }
 
